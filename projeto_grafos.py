@@ -1,16 +1,23 @@
 from queue import PriorityQueue
 import networkx as nx
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 
-roteadores = dict()
+roteadores = dict() #Dicionário que irá armazenar os roteadores
 
+
+# Abre o arquivo que contém os dados da rede
 with open("dadaset_redes.txt", "r") as arquivo:
-    while True:
+    # Lê o arquivo linha por linha até o fim
+    while True: 
         linha = arquivo.readline()
-        if linha: 
-            divisao = linha.split(":")
-            node = divisao[0].strip()
 
+        # Verifica se ainda existe conteúdo
+        if linha: 
+            # Divide a linha em duas partes usando ":"
+            divisao = linha.split(":")
+            node = divisao[0].strip()   # Obtém o nome do roteador pegando o índice 0 e removendo espaço vazio
+
+            # Armazena no dicionário as conexões 
             roteadores[node] = eval(divisao[1].strip())
         else:
             break
@@ -18,68 +25,81 @@ with open("dadaset_redes.txt", "r") as arquivo:
 # Definição das funções de Busca Uniforme e Algoritmo Djikstra
 
 def BuscaUniforme(grafo,inicio,alvo):
-    fila = PriorityQueue()
-    visitados = set()
+    fila = PriorityQueue()  
+    visitados = set()   
 
+    # Insere o nó inicial na fila
     fila.put((0,inicio,[inicio]))
 
+    # Continua enquanto houver elementos na fila
     while not fila.empty():
-        custoAtual, cidadeAtual, caminho = fila.get()
 
-        if cidadeAtual in visitados:
+        custoAtual, roteadorAtual, caminho = fila.get()
+
+        # Ignora caso o nó já tenha sido visitado
+        if roteadorAtual in visitados:
             continue
+        
+        # Marca o nó como visitado
+        visitados.add(roteadorAtual)
 
-        visitados.add(cidadeAtual)
-
-        if cidadeAtual == alvo:
+        # Se encontrou o destino retorna o custo e o caminho percorrido
+        if roteadorAtual == alvo:
             return custoAtual, caminho
         
-        for vizinho, custoVizinho in grafo[cidadeAtual]:
-            if vizinho not in visitados:
+        # Percorre os vizinhos do nó atual
+        for vizinho, custoVizinho in grafo[roteadorAtual]:
+            # Se o vizinho não foi vistado
+            if vizinho not in visitados:    
                 novoCusto = custoAtual + custoVizinho
                 novoCaminho = caminho + [vizinho]
-
+                # Adiciona na fila o novo custo, e o caminho atualizado
                 fila.put((novoCusto,vizinho,novoCaminho))
 
-    return "Alvo não encontrado"
+    return "Alvo não encontrado"    
 
 def AlgoritmoDjikstra(grafo, inicio):
-    fila = PriorityQueue()
-    menoresDistancias = dict()
-    ancestrais = dict()
+    fila = PriorityQueue()  
+    menoresDistancias = dict()  # Armazena menor distância encontrada para cada nó do grafo
+    ancestrais = dict() # Como se fosse uma corrente 
 
-    for cidade in grafo:
-        menoresDistancias[cidade] = float("inf")
-        ancestrais[cidade] = None
+    # Inicializa todas as distâncias com infinito e que não tem nenhum nó com ancestral
+    for roteador in grafo:
+        menoresDistancias[roteador] = float("inf")
+        ancestrais[roteador] = None
 
     menoresDistancias[inicio] = 0
 
+    # Adiciona o nó inicial na fila
     fila.put((0,inicio))
 
     while not fila.empty():
-        custoAtual, cidadeAtual = fila.get()
+        custoAtual, roteadorAtual = fila.get()
 
-        if custoAtual > menoresDistancias[cidadeAtual]:
+        if custoAtual > menoresDistancias[roteadorAtual]:
             continue
-
-        for vizinho, custoVizinho in grafo[cidadeAtual]:
+        
+        for vizinho, custoVizinho in grafo[roteadorAtual]:
             novoCusto = custoAtual + custoVizinho
 
+            # Se encontrou um caminho melhor
             if novoCusto < menoresDistancias[vizinho]:
-                menoresDistancias[vizinho] = novoCusto
-                ancestrais[vizinho] = cidadeAtual
 
-                fila.put((novoCusto,vizinho))
-    return menoresDistancias, ancestrais
+                # Atualizar a menor distância
+                menoresDistancias[vizinho] = novoCusto
+                ancestrais[vizinho] = roteadorAtual   # Atualiza o ancestral
+
+                fila.put((novoCusto,vizinho))   # Insere o vizinho na fila com o novo custo
+    return menoresDistancias, ancestrais    # Retorna as menores distâncias e os ancestrais para cada nó do grafo
 
 def ArvoreDijkstra(ancestrais):
-    arestasArvore = []
+    arestasArvore = []  # Armazena as arestas da árvore de Dijkstra
 
-    for cidade, ancestral in ancestrais.items():
-        if ancestral:
-            arestasArvore.append((cidade,ancestral))
+    for roteador, ancestral in ancestrais.items():
+        if ancestral:   # Se existir um ancestral, cria a aresta entre o roteador e seu ancestral
+            arestasArvore.append((roteador,ancestral))
 
-    return arestasArvore
+    return arestasArvore    # Retorna todas as arestas 
 
 # Problema 1 
 print("\n----- Problema 1 -----")
@@ -101,10 +121,11 @@ print("\n----- Problema 2 -----")
 
 distancias, ancestrais = AlgoritmoDjikstra(roteadores,origem)
 
-for r,d in distancias.items():
-    print(r,d)
+
 # 1.  Qual é a menor latência entre CORE001 e cada um dos 200 roteadores da rede?
-print(f"\n1.  Qual é a menor latência entre CORE001 e cada um dos 200 roteadores da rede?\nA menor latência em relação ao servidor central foi {min(dist for dist in distancias.values() if dist>0)} ") 
+print("\n1. Qual é a menor latência entre CORE001 e cada um dos 200 roteadores da rede?")
+for roteador, distancia in distancias.items():
+    print(f"{roteador}: {distancia}ms")
 # 2.  Qual roteador apresenta a maior latência em relação ao servidor central? 
 print(f"\n2.  Qual roteador apresenta a maior latência em relação ao servidor central?\nO roteador de maior latência em relação ao servidor central foi {max(distancias)}")
 # 3.  Qual é a latência média da rede? 
@@ -126,19 +147,19 @@ for roteador, vizinhos in roteadores.items():
     for vizinho, custo in vizinhos:
         grafo.add_edge(roteador,vizinho,weight=custo)
 
-plt.figure(figsize=(50,25))
+plt.figure(figsize=(24, 16))
 pos = nx.bfs_layout(grafo,origem)
 
-nx.draw_networkx_edges(grafo,pos,width=1)
-nx.draw_networkx_edges(grafo,pos,edge_color="red",edgelist=arestas,width=2)
+nx.draw_networkx_edges(grafo,pos,width=0.6)
+nx.draw_networkx_edges(grafo,pos,edge_color="red",edgelist=arestas,width=3.5)
 
-nx.draw_networkx_nodes(grafo,pos,node_size=500)
-nx.draw_networkx_nodes(grafo,pos,node_color="orange",nodelist=[origem],node_size=1000)
-nx.draw_networkx_nodes(grafo,pos,node_color="red",nodelist=list(nos_arvore),node_size=500)
+nx.draw_networkx_nodes(grafo,pos,node_size=200)
+nx.draw_networkx_nodes(grafo,pos,node_color="orange",nodelist=[origem],node_size=800)
+nx.draw_networkx_nodes(grafo,pos,node_color="red",nodelist=list(nos_arvore),node_size=350)
 
-nx.draw_networkx_labels(grafo,pos)
+nx.draw_networkx_labels(grafo,pos,font_size=6)
 peso = nx.get_edge_attributes(grafo,"weight")
-nx.draw_networkx_edge_labels(grafo,pos,edge_labels=peso,font_size=10)
+nx.draw_networkx_edge_labels(grafo,pos,edge_labels=peso,font_size=6)
 
 plt.title(f"Grafo produzido pelo algoritmo de Dijkstra a partir de {origem}",fontsize=15)
 plt.show()
