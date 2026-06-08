@@ -1,0 +1,7466 @@
+{
+  "CORE001": [
+    {
+      "destino": "CORE002",
+      "custo": 2
+    },
+    {
+      "destino": "CORE003",
+      "custo": 2
+    },
+    {
+      "destino": "CORE003",
+      "custo": 8
+    },
+    {
+      "destino": "CORE013",
+      "custo": 9
+    }
+  ],
+  "CORE002": [
+    {
+      "destino": "CORE001",
+      "custo": 2
+    },
+    {
+      "destino": "CORE003",
+      "custo": 1
+    },
+    {
+      "destino": "CORE015",
+      "custo": 4
+    },
+    {
+      "destino": "CORE013",
+      "custo": 11
+    },
+    {
+      "destino": "CORE004",
+      "custo": 18
+    },
+    {
+      "destino": "CORE006",
+      "custo": 13
+    },
+    {
+      "destino": "CORE019",
+      "custo": 18
+    },
+    {
+      "destino": "CORE011",
+      "custo": 2
+    },
+    {
+      "destino": "CORE019",
+      "custo": 16
+    },
+    {
+      "destino": "CORE006",
+      "custo": 17
+    },
+    {
+      "destino": "CORE020",
+      "custo": 3
+    },
+    {
+      "destino": "CORE015",
+      "custo": 23
+    },
+    {
+      "destino": "IOT018",
+      "custo": 57
+    },
+    {
+      "destino": "IOT048",
+      "custo": 15
+    }
+  ],
+  "CORE003": [
+    {
+      "destino": "CORE002",
+      "custo": 1
+    },
+    {
+      "destino": "CORE004",
+      "custo": 5
+    },
+    {
+      "destino": "CORE001",
+      "custo": 2
+    },
+    {
+      "destino": "CORE008",
+      "custo": 2
+    },
+    {
+      "destino": "CORE011",
+      "custo": 17
+    },
+    {
+      "destino": "CORE015",
+      "custo": 18
+    },
+    {
+      "destino": "CORE001",
+      "custo": 8
+    },
+    {
+      "destino": "CORE006",
+      "custo": 3
+    },
+    {
+      "destino": "CORE020",
+      "custo": 8
+    }
+  ],
+  "CORE004": [
+    {
+      "destino": "CORE003",
+      "custo": 5
+    },
+    {
+      "destino": "CORE005",
+      "custo": 4
+    },
+    {
+      "destino": "CORE014",
+      "custo": 12
+    },
+    {
+      "destino": "CORE008",
+      "custo": 7
+    },
+    {
+      "destino": "CORE002",
+      "custo": 18
+    },
+    {
+      "destino": "CORE013",
+      "custo": 19
+    }
+  ],
+  "CORE005": [
+    {
+      "destino": "CORE004",
+      "custo": 4
+    },
+    {
+      "destino": "CORE006",
+      "custo": 4
+    },
+    {
+      "destino": "CORE014",
+      "custo": 6
+    },
+    {
+      "destino": "IOT002",
+      "custo": 39
+    },
+    {
+      "destino": "RH016",
+      "custo": 23
+    }
+  ],
+  "CORE006": [
+    {
+      "destino": "CORE005",
+      "custo": 4
+    },
+    {
+      "destino": "CORE007",
+      "custo": 3
+    },
+    {
+      "destino": "CORE014",
+      "custo": 16
+    },
+    {
+      "destino": "CORE002",
+      "custo": 13
+    },
+    {
+      "destino": "CORE002",
+      "custo": 17
+    },
+    {
+      "destino": "CORE003",
+      "custo": 3
+    },
+    {
+      "destino": "PROD014",
+      "custo": 20
+    }
+  ],
+  "CORE007": [
+    {
+      "destino": "CORE006",
+      "custo": 3
+    },
+    {
+      "destino": "CORE008",
+      "custo": 2
+    },
+    {
+      "destino": "CORE018",
+      "custo": 5
+    },
+    {
+      "destino": "CORE014",
+      "custo": 4
+    },
+    {
+      "destino": "CORE018",
+      "custo": 15
+    },
+    {
+      "destino": "CORE016",
+      "custo": 13
+    },
+    {
+      "destino": "CORE010",
+      "custo": 7
+    },
+    {
+      "destino": "CORE011",
+      "custo": 8
+    },
+    {
+      "destino": "IOT033",
+      "custo": 48
+    },
+    {
+      "destino": "FIN010",
+      "custo": 57
+    },
+    {
+      "destino": "IOT017",
+      "custo": 33
+    }
+  ],
+  "CORE008": [
+    {
+      "destino": "CORE007",
+      "custo": 2
+    },
+    {
+      "destino": "CORE009",
+      "custo": 9
+    },
+    {
+      "destino": "CORE003",
+      "custo": 2
+    },
+    {
+      "destino": "CORE009",
+      "custo": 16
+    },
+    {
+      "destino": "CORE016",
+      "custo": 16
+    },
+    {
+      "destino": "CORE004",
+      "custo": 7
+    },
+    {
+      "destino": "CORE019",
+      "custo": 20
+    },
+    {
+      "destino": "CLOUD005",
+      "custo": 13
+    },
+    {
+      "destino": "FIN027",
+      "custo": 27
+    },
+    {
+      "destino": "FIN004",
+      "custo": 57
+    },
+    {
+      "destino": "RH008",
+      "custo": 30
+    },
+    {
+      "destino": "FIN001",
+      "custo": 12
+    }
+  ],
+  "CORE009": [
+    {
+      "destino": "CORE008",
+      "custo": 9
+    },
+    {
+      "destino": "CORE010",
+      "custo": 2
+    },
+    {
+      "destino": "CORE008",
+      "custo": 16
+    },
+    {
+      "destino": "CORE015",
+      "custo": 8
+    },
+    {
+      "destino": "CORE013",
+      "custo": 5
+    },
+    {
+      "destino": "IOT003",
+      "custo": 18
+    }
+  ],
+  "CORE010": [
+    {
+      "destino": "CORE009",
+      "custo": 2
+    },
+    {
+      "destino": "CORE011",
+      "custo": 10
+    },
+    {
+      "destino": "CORE015",
+      "custo": 14
+    },
+    {
+      "destino": "CORE007",
+      "custo": 7
+    },
+    {
+      "destino": "CORE015",
+      "custo": 33
+    },
+    {
+      "destino": "IOT025",
+      "custo": 52
+    },
+    {
+      "destino": "PROD004",
+      "custo": 40
+    },
+    {
+      "destino": "SEC003",
+      "custo": 51
+    }
+  ],
+  "CORE011": [
+    {
+      "destino": "CORE010",
+      "custo": 10
+    },
+    {
+      "destino": "CORE012",
+      "custo": 7
+    },
+    {
+      "destino": "CORE003",
+      "custo": 17
+    },
+    {
+      "destino": "CORE002",
+      "custo": 2
+    },
+    {
+      "destino": "CORE017",
+      "custo": 9
+    },
+    {
+      "destino": "CORE007",
+      "custo": 8
+    },
+    {
+      "destino": "BACKUP010",
+      "custo": 38
+    },
+    {
+      "destino": "RH002",
+      "custo": 30
+    },
+    {
+      "destino": "BACKUP007",
+      "custo": 32
+    }
+  ],
+  "CORE012": [
+    {
+      "destino": "CORE011",
+      "custo": 7
+    },
+    {
+      "destino": "CORE013",
+      "custo": 1
+    },
+    {
+      "destino": "PROD036",
+      "custo": 33
+    }
+  ],
+  "CORE013": [
+    {
+      "destino": "CORE012",
+      "custo": 1
+    },
+    {
+      "destino": "CORE014",
+      "custo": 1
+    },
+    {
+      "destino": "CORE002",
+      "custo": 11
+    },
+    {
+      "destino": "CORE001",
+      "custo": 9
+    },
+    {
+      "destino": "CORE004",
+      "custo": 19
+    },
+    {
+      "destino": "CORE009",
+      "custo": 5
+    },
+    {
+      "destino": "RH012",
+      "custo": 36
+    },
+    {
+      "destino": "SEC010",
+      "custo": 51
+    }
+  ],
+  "CORE014": [
+    {
+      "destino": "CORE013",
+      "custo": 1
+    },
+    {
+      "destino": "CORE015",
+      "custo": 2
+    },
+    {
+      "destino": "CORE007",
+      "custo": 4
+    },
+    {
+      "destino": "CORE004",
+      "custo": 12
+    },
+    {
+      "destino": "CORE005",
+      "custo": 6
+    },
+    {
+      "destino": "CORE006",
+      "custo": 16
+    },
+    {
+      "destino": "CORE019",
+      "custo": 19
+    },
+    {
+      "destino": "BACKUP005",
+      "custo": 28
+    },
+    {
+      "destino": "FIN020",
+      "custo": 20
+    },
+    {
+      "destino": "RH015",
+      "custo": 51
+    },
+    {
+      "destino": "PROD037",
+      "custo": 35
+    }
+  ],
+  "CORE015": [
+    {
+      "destino": "CORE014",
+      "custo": 2
+    },
+    {
+      "destino": "CORE016",
+      "custo": 4
+    },
+    {
+      "destino": "CORE002",
+      "custo": 4
+    },
+    {
+      "destino": "CORE009",
+      "custo": 8
+    },
+    {
+      "destino": "CORE003",
+      "custo": 18
+    },
+    {
+      "destino": "CORE010",
+      "custo": 14
+    },
+    {
+      "destino": "CORE002",
+      "custo": 23
+    },
+    {
+      "destino": "CORE010",
+      "custo": 33
+    },
+    {
+      "destino": "CLOUD004",
+      "custo": 14
+    },
+    {
+      "destino": "FIN012",
+      "custo": 43
+    }
+  ],
+  "CORE016": [
+    {
+      "destino": "CORE015",
+      "custo": 4
+    },
+    {
+      "destino": "CORE017",
+      "custo": 4
+    },
+    {
+      "destino": "CORE008",
+      "custo": 16
+    },
+    {
+      "destino": "CORE007",
+      "custo": 13
+    },
+    {
+      "destino": "CORE018",
+      "custo": 5
+    },
+    {
+      "destino": "IOT041",
+      "custo": 45
+    }
+  ],
+  "CORE017": [
+    {
+      "destino": "CORE016",
+      "custo": 4
+    },
+    {
+      "destino": "CORE018",
+      "custo": 9
+    },
+    {
+      "destino": "CORE011",
+      "custo": 9
+    },
+    {
+      "destino": "FIN018",
+      "custo": 18
+    },
+    {
+      "destino": "PROD015",
+      "custo": 16
+    },
+    {
+      "destino": "FIN009",
+      "custo": 41
+    },
+    {
+      "destino": "FIN015",
+      "custo": 55
+    },
+    {
+      "destino": "IOT031",
+      "custo": 44
+    }
+  ],
+  "CORE018": [
+    {
+      "destino": "CORE017",
+      "custo": 9
+    },
+    {
+      "destino": "CORE019",
+      "custo": 10
+    },
+    {
+      "destino": "CORE007",
+      "custo": 5
+    },
+    {
+      "destino": "CORE007",
+      "custo": 15
+    },
+    {
+      "destino": "CORE016",
+      "custo": 5
+    },
+    {
+      "destino": "IOT012",
+      "custo": 15
+    },
+    {
+      "destino": "IOT003",
+      "custo": 40
+    },
+    {
+      "destino": "PROD022",
+      "custo": 32
+    },
+    {
+      "destino": "RH011",
+      "custo": 59
+    }
+  ],
+  "CORE019": [
+    {
+      "destino": "CORE018",
+      "custo": 10
+    },
+    {
+      "destino": "CORE020",
+      "custo": 1
+    },
+    {
+      "destino": "CORE002",
+      "custo": 18
+    },
+    {
+      "destino": "CORE002",
+      "custo": 16
+    },
+    {
+      "destino": "CORE008",
+      "custo": 20
+    },
+    {
+      "destino": "CORE014",
+      "custo": 19
+    },
+    {
+      "destino": "FIN015",
+      "custo": 38
+    },
+    {
+      "destino": "IOT038",
+      "custo": 18
+    }
+  ],
+  "CORE020": [
+    {
+      "destino": "CORE019",
+      "custo": 1
+    },
+    {
+      "destino": "FIN001",
+      "custo": 9
+    },
+    {
+      "destino": "CORE003",
+      "custo": 8
+    },
+    {
+      "destino": "CORE002",
+      "custo": 3
+    },
+    {
+      "destino": "PROD011",
+      "custo": 46
+    },
+    {
+      "destino": "IOT021",
+      "custo": 50
+    },
+    {
+      "destino": "CLOUD008",
+      "custo": 21
+    },
+    {
+      "destino": "PROD004",
+      "custo": 51
+    }
+  ],
+  "FIN001": [
+    {
+      "destino": "CORE020",
+      "custo": 9
+    },
+    {
+      "destino": "FIN002",
+      "custo": 4
+    },
+    {
+      "destino": "FIN015",
+      "custo": 20
+    },
+    {
+      "destino": "FIN022",
+      "custo": 18
+    },
+    {
+      "destino": "FIN011",
+      "custo": 5
+    },
+    {
+      "destino": "FIN004",
+      "custo": 3
+    },
+    {
+      "destino": "FIN006",
+      "custo": 11
+    },
+    {
+      "destino": "FIN008",
+      "custo": 7
+    },
+    {
+      "destino": "FIN011",
+      "custo": 4
+    },
+    {
+      "destino": "PROD013",
+      "custo": 48
+    },
+    {
+      "destino": "CLOUD013",
+      "custo": 27
+    },
+    {
+      "destino": "PROD032",
+      "custo": 29
+    },
+    {
+      "destino": "PROD016",
+      "custo": 47
+    },
+    {
+      "destino": "PROD029",
+      "custo": 33
+    },
+    {
+      "destino": "FIN007",
+      "custo": 30
+    },
+    {
+      "destino": "PROD003",
+      "custo": 26
+    },
+    {
+      "destino": "CORE008",
+      "custo": 12
+    }
+  ],
+  "FIN002": [
+    {
+      "destino": "FIN001",
+      "custo": 4
+    },
+    {
+      "destino": "FIN003",
+      "custo": 9
+    },
+    {
+      "destino": "FIN018",
+      "custo": 12
+    },
+    {
+      "destino": "FIN004",
+      "custo": 37
+    },
+    {
+      "destino": "BACKUP003",
+      "custo": 42
+    }
+  ],
+  "FIN003": [
+    {
+      "destino": "FIN002",
+      "custo": 9
+    },
+    {
+      "destino": "FIN004",
+      "custo": 7
+    },
+    {
+      "destino": "FIN029",
+      "custo": 8
+    },
+    {
+      "destino": "FIN021",
+      "custo": 14
+    },
+    {
+      "destino": "FIN028",
+      "custo": 9
+    },
+    {
+      "destino": "PROD023",
+      "custo": 37
+    },
+    {
+      "destino": "CLOUD015",
+      "custo": 30
+    },
+    {
+      "destino": "IOT047",
+      "custo": 14
+    }
+  ],
+  "FIN004": [
+    {
+      "destino": "FIN003",
+      "custo": 7
+    },
+    {
+      "destino": "FIN005",
+      "custo": 4
+    },
+    {
+      "destino": "FIN019",
+      "custo": 3
+    },
+    {
+      "destino": "FIN029",
+      "custo": 4
+    },
+    {
+      "destino": "FIN001",
+      "custo": 3
+    },
+    {
+      "destino": "FIN020",
+      "custo": 14
+    },
+    {
+      "destino": "FIN002",
+      "custo": 37
+    },
+    {
+      "destino": "CORE008",
+      "custo": 57
+    },
+    {
+      "destino": "IOT048",
+      "custo": 48
+    },
+    {
+      "destino": "IOT002",
+      "custo": 24
+    },
+    {
+      "destino": "IOT019",
+      "custo": 51
+    }
+  ],
+  "FIN005": [
+    {
+      "destino": "FIN004",
+      "custo": 4
+    },
+    {
+      "destino": "FIN006",
+      "custo": 8
+    },
+    {
+      "destino": "FIN009",
+      "custo": 12
+    },
+    {
+      "destino": "FIN029",
+      "custo": 9
+    },
+    {
+      "destino": "FIN014",
+      "custo": 2
+    },
+    {
+      "destino": "PROD011",
+      "custo": 37
+    },
+    {
+      "destino": "SEC001",
+      "custo": 57
+    }
+  ],
+  "FIN006": [
+    {
+      "destino": "FIN005",
+      "custo": 8
+    },
+    {
+      "destino": "FIN007",
+      "custo": 10
+    },
+    {
+      "destino": "FIN029",
+      "custo": 14
+    },
+    {
+      "destino": "FIN001",
+      "custo": 11
+    },
+    {
+      "destino": "FIN009",
+      "custo": 4
+    },
+    {
+      "destino": "CLOUD020",
+      "custo": 17
+    },
+    {
+      "destino": "PROD006",
+      "custo": 42
+    },
+    {
+      "destino": "BACKUP003",
+      "custo": 51
+    }
+  ],
+  "FIN007": [
+    {
+      "destino": "FIN006",
+      "custo": 10
+    },
+    {
+      "destino": "FIN008",
+      "custo": 5
+    },
+    {
+      "destino": "FIN018",
+      "custo": 17
+    },
+    {
+      "destino": "FIN023",
+      "custo": 11
+    },
+    {
+      "destino": "FIN022",
+      "custo": 9
+    },
+    {
+      "destino": "FIN027",
+      "custo": 15
+    },
+    {
+      "destino": "IOT038",
+      "custo": 42
+    },
+    {
+      "destino": "IOT006",
+      "custo": 31
+    },
+    {
+      "destino": "BACKUP003",
+      "custo": 43
+    },
+    {
+      "destino": "CLOUD001",
+      "custo": 59
+    },
+    {
+      "destino": "FIN001",
+      "custo": 30
+    }
+  ],
+  "FIN008": [
+    {
+      "destino": "FIN007",
+      "custo": 5
+    },
+    {
+      "destino": "FIN009",
+      "custo": 1
+    },
+    {
+      "destino": "FIN022",
+      "custo": 4
+    },
+    {
+      "destino": "FIN028",
+      "custo": 6
+    },
+    {
+      "destino": "FIN001",
+      "custo": 7
+    },
+    {
+      "destino": "CLOUD016",
+      "custo": 41
+    },
+    {
+      "destino": "RH013",
+      "custo": 37
+    }
+  ],
+  "FIN009": [
+    {
+      "destino": "FIN008",
+      "custo": 1
+    },
+    {
+      "destino": "FIN010",
+      "custo": 3
+    },
+    {
+      "destino": "FIN005",
+      "custo": 12
+    },
+    {
+      "destino": "FIN010",
+      "custo": 20
+    },
+    {
+      "destino": "FIN027",
+      "custo": 2
+    },
+    {
+      "destino": "FIN021",
+      "custo": 6
+    },
+    {
+      "destino": "FIN006",
+      "custo": 4
+    },
+    {
+      "destino": "FIN029",
+      "custo": 6
+    },
+    {
+      "destino": "FIN019",
+      "custo": 2
+    },
+    {
+      "destino": "SEC009",
+      "custo": 28
+    },
+    {
+      "destino": "CORE017",
+      "custo": 41
+    }
+  ],
+  "FIN010": [
+    {
+      "destino": "FIN009",
+      "custo": 3
+    },
+    {
+      "destino": "FIN011",
+      "custo": 7
+    },
+    {
+      "destino": "FIN012",
+      "custo": 6
+    },
+    {
+      "destino": "FIN023",
+      "custo": 20
+    },
+    {
+      "destino": "FIN030",
+      "custo": 4
+    },
+    {
+      "destino": "FIN009",
+      "custo": 20
+    },
+    {
+      "destino": "FIN012",
+      "custo": 2
+    },
+    {
+      "destino": "FIN012",
+      "custo": 8
+    },
+    {
+      "destino": "SEC006",
+      "custo": 27
+    },
+    {
+      "destino": "PROD005",
+      "custo": 35
+    },
+    {
+      "destino": "IOT026",
+      "custo": 42
+    },
+    {
+      "destino": "CORE007",
+      "custo": 57
+    }
+  ],
+  "FIN011": [
+    {
+      "destino": "FIN010",
+      "custo": 7
+    },
+    {
+      "destino": "FIN012",
+      "custo": 6
+    },
+    {
+      "destino": "FIN015",
+      "custo": 3
+    },
+    {
+      "destino": "FIN001",
+      "custo": 5
+    },
+    {
+      "destino": "FIN013",
+      "custo": 9
+    },
+    {
+      "destino": "FIN001",
+      "custo": 4
+    }
+  ],
+  "FIN012": [
+    {
+      "destino": "FIN011",
+      "custo": 6
+    },
+    {
+      "destino": "FIN013",
+      "custo": 5
+    },
+    {
+      "destino": "FIN010",
+      "custo": 6
+    },
+    {
+      "destino": "FIN010",
+      "custo": 2
+    },
+    {
+      "destino": "FIN029",
+      "custo": 7
+    },
+    {
+      "destino": "FIN025",
+      "custo": 18
+    },
+    {
+      "destino": "FIN010",
+      "custo": 8
+    },
+    {
+      "destino": "FIN021",
+      "custo": 17
+    },
+    {
+      "destino": "FIN024",
+      "custo": 11
+    },
+    {
+      "destino": "PROD036",
+      "custo": 32
+    },
+    {
+      "destino": "PROD003",
+      "custo": 15
+    },
+    {
+      "destino": "RH002",
+      "custo": 60
+    },
+    {
+      "destino": "CORE015",
+      "custo": 43
+    }
+  ],
+  "FIN013": [
+    {
+      "destino": "FIN012",
+      "custo": 5
+    },
+    {
+      "destino": "FIN014",
+      "custo": 3
+    },
+    {
+      "destino": "FIN028",
+      "custo": 2
+    },
+    {
+      "destino": "FIN011",
+      "custo": 9
+    },
+    {
+      "destino": "FIN022",
+      "custo": 18
+    },
+    {
+      "destino": "PROD001",
+      "custo": 50
+    }
+  ],
+  "FIN014": [
+    {
+      "destino": "FIN013",
+      "custo": 3
+    },
+    {
+      "destino": "FIN015",
+      "custo": 4
+    },
+    {
+      "destino": "FIN023",
+      "custo": 18
+    },
+    {
+      "destino": "FIN005",
+      "custo": 2
+    },
+    {
+      "destino": "PROD026",
+      "custo": 45
+    },
+    {
+      "destino": "IOT043",
+      "custo": 34
+    },
+    {
+      "destino": "IOT001",
+      "custo": 42
+    }
+  ],
+  "FIN015": [
+    {
+      "destino": "FIN014",
+      "custo": 4
+    },
+    {
+      "destino": "FIN016",
+      "custo": 6
+    },
+    {
+      "destino": "FIN011",
+      "custo": 3
+    },
+    {
+      "destino": "FIN001",
+      "custo": 20
+    },
+    {
+      "destino": "FIN027",
+      "custo": 18
+    },
+    {
+      "destino": "FIN024",
+      "custo": 18
+    },
+    {
+      "destino": "PROD016",
+      "custo": 12
+    },
+    {
+      "destino": "CORE017",
+      "custo": 55
+    },
+    {
+      "destino": "CORE019",
+      "custo": 38
+    }
+  ],
+  "FIN016": [
+    {
+      "destino": "FIN015",
+      "custo": 6
+    },
+    {
+      "destino": "FIN017",
+      "custo": 2
+    },
+    {
+      "destino": "FIN017",
+      "custo": 9
+    },
+    {
+      "destino": "FIN028",
+      "custo": 8
+    },
+    {
+      "destino": "SEC006",
+      "custo": 26
+    },
+    {
+      "destino": "FIN020",
+      "custo": 14
+    },
+    {
+      "destino": "CLOUD019",
+      "custo": 58
+    },
+    {
+      "destino": "IOT037",
+      "custo": 43
+    },
+    {
+      "destino": "RH011",
+      "custo": 60
+    }
+  ],
+  "FIN017": [
+    {
+      "destino": "FIN016",
+      "custo": 2
+    },
+    {
+      "destino": "FIN018",
+      "custo": 2
+    },
+    {
+      "destino": "FIN016",
+      "custo": 9
+    },
+    {
+      "destino": "FIN027",
+      "custo": 46
+    },
+    {
+      "destino": "BACKUP010",
+      "custo": 50
+    },
+    {
+      "destino": "CLOUD010",
+      "custo": 32
+    },
+    {
+      "destino": "IOT046",
+      "custo": 53
+    }
+  ],
+  "FIN018": [
+    {
+      "destino": "FIN017",
+      "custo": 2
+    },
+    {
+      "destino": "FIN019",
+      "custo": 7
+    },
+    {
+      "destino": "FIN007",
+      "custo": 17
+    },
+    {
+      "destino": "FIN024",
+      "custo": 5
+    },
+    {
+      "destino": "FIN002",
+      "custo": 12
+    },
+    {
+      "destino": "FIN019",
+      "custo": 5
+    },
+    {
+      "destino": "CORE017",
+      "custo": 18
+    },
+    {
+      "destino": "RH011",
+      "custo": 16
+    },
+    {
+      "destino": "RH016",
+      "custo": 22
+    },
+    {
+      "destino": "PROD016",
+      "custo": 18
+    }
+  ],
+  "FIN019": [
+    {
+      "destino": "FIN018",
+      "custo": 7
+    },
+    {
+      "destino": "FIN020",
+      "custo": 2
+    },
+    {
+      "destino": "FIN004",
+      "custo": 3
+    },
+    {
+      "destino": "FIN018",
+      "custo": 5
+    },
+    {
+      "destino": "FIN009",
+      "custo": 2
+    },
+    {
+      "destino": "IOT019",
+      "custo": 13
+    },
+    {
+      "destino": "IOT031",
+      "custo": 56
+    }
+  ],
+  "FIN020": [
+    {
+      "destino": "FIN019",
+      "custo": 2
+    },
+    {
+      "destino": "FIN021",
+      "custo": 6
+    },
+    {
+      "destino": "FIN024",
+      "custo": 5
+    },
+    {
+      "destino": "FIN004",
+      "custo": 14
+    },
+    {
+      "destino": "PROD026",
+      "custo": 53
+    },
+    {
+      "destino": "RH005",
+      "custo": 52
+    },
+    {
+      "destino": "CORE014",
+      "custo": 20
+    },
+    {
+      "destino": "FIN016",
+      "custo": 14
+    },
+    {
+      "destino": "FIN022",
+      "custo": 21
+    },
+    {
+      "destino": "IOT045",
+      "custo": 53
+    },
+    {
+      "destino": "PROD008",
+      "custo": 20
+    },
+    {
+      "destino": "FIN024",
+      "custo": 52
+    }
+  ],
+  "FIN021": [
+    {
+      "destino": "FIN020",
+      "custo": 6
+    },
+    {
+      "destino": "FIN022",
+      "custo": 6
+    },
+    {
+      "destino": "FIN022",
+      "custo": 10
+    },
+    {
+      "destino": "FIN026",
+      "custo": 17
+    },
+    {
+      "destino": "FIN003",
+      "custo": 14
+    },
+    {
+      "destino": "FIN009",
+      "custo": 6
+    },
+    {
+      "destino": "FIN012",
+      "custo": 17
+    },
+    {
+      "destino": "PROD025",
+      "custo": 29
+    },
+    {
+      "destino": "IOT047",
+      "custo": 33
+    },
+    {
+      "destino": "CLOUD014",
+      "custo": 11
+    }
+  ],
+  "FIN022": [
+    {
+      "destino": "FIN021",
+      "custo": 6
+    },
+    {
+      "destino": "FIN023",
+      "custo": 10
+    },
+    {
+      "destino": "FIN021",
+      "custo": 10
+    },
+    {
+      "destino": "FIN001",
+      "custo": 18
+    },
+    {
+      "destino": "FIN007",
+      "custo": 9
+    },
+    {
+      "destino": "FIN008",
+      "custo": 4
+    },
+    {
+      "destino": "FIN026",
+      "custo": 8
+    },
+    {
+      "destino": "FIN013",
+      "custo": 18
+    },
+    {
+      "destino": "FIN020",
+      "custo": 21
+    },
+    {
+      "destino": "SEC006",
+      "custo": 27
+    },
+    {
+      "destino": "PROD013",
+      "custo": 55
+    }
+  ],
+  "FIN023": [
+    {
+      "destino": "FIN022",
+      "custo": 10
+    },
+    {
+      "destino": "FIN024",
+      "custo": 5
+    },
+    {
+      "destino": "FIN010",
+      "custo": 20
+    },
+    {
+      "destino": "FIN007",
+      "custo": 11
+    },
+    {
+      "destino": "FIN014",
+      "custo": 18
+    },
+    {
+      "destino": "FIN029",
+      "custo": 5
+    },
+    {
+      "destino": "BACKUP005",
+      "custo": 38
+    },
+    {
+      "destino": "PROD040",
+      "custo": 54
+    }
+  ],
+  "FIN024": [
+    {
+      "destino": "FIN023",
+      "custo": 5
+    },
+    {
+      "destino": "FIN025",
+      "custo": 1
+    },
+    {
+      "destino": "FIN018",
+      "custo": 5
+    },
+    {
+      "destino": "FIN015",
+      "custo": 18
+    },
+    {
+      "destino": "FIN020",
+      "custo": 5
+    },
+    {
+      "destino": "FIN012",
+      "custo": 11
+    },
+    {
+      "destino": "IOT042",
+      "custo": 47
+    },
+    {
+      "destino": "FIN020",
+      "custo": 52
+    }
+  ],
+  "FIN025": [
+    {
+      "destino": "FIN024",
+      "custo": 1
+    },
+    {
+      "destino": "FIN026",
+      "custo": 8
+    },
+    {
+      "destino": "FIN012",
+      "custo": 18
+    },
+    {
+      "destino": "IOT001",
+      "custo": 18
+    },
+    {
+      "destino": "IOT045",
+      "custo": 19
+    },
+    {
+      "destino": "CLOUD006",
+      "custo": 12
+    },
+    {
+      "destino": "CLOUD005",
+      "custo": 59
+    },
+    {
+      "destino": "BACKUP003",
+      "custo": 38
+    },
+    {
+      "destino": "CLOUD004",
+      "custo": 60
+    }
+  ],
+  "FIN026": [
+    {
+      "destino": "FIN025",
+      "custo": 8
+    },
+    {
+      "destino": "FIN027",
+      "custo": 9
+    },
+    {
+      "destino": "FIN021",
+      "custo": 17
+    },
+    {
+      "destino": "FIN030",
+      "custo": 14
+    },
+    {
+      "destino": "FIN022",
+      "custo": 8
+    }
+  ],
+  "FIN027": [
+    {
+      "destino": "FIN026",
+      "custo": 9
+    },
+    {
+      "destino": "FIN028",
+      "custo": 2
+    },
+    {
+      "destino": "FIN015",
+      "custo": 18
+    },
+    {
+      "destino": "FIN009",
+      "custo": 2
+    },
+    {
+      "destino": "FIN007",
+      "custo": 15
+    },
+    {
+      "destino": "CORE008",
+      "custo": 27
+    },
+    {
+      "destino": "FIN017",
+      "custo": 46
+    },
+    {
+      "destino": "IOT041",
+      "custo": 59
+    }
+  ],
+  "FIN028": [
+    {
+      "destino": "FIN027",
+      "custo": 2
+    },
+    {
+      "destino": "FIN029",
+      "custo": 7
+    },
+    {
+      "destino": "FIN029",
+      "custo": 14
+    },
+    {
+      "destino": "FIN008",
+      "custo": 6
+    },
+    {
+      "destino": "FIN013",
+      "custo": 2
+    },
+    {
+      "destino": "FIN016",
+      "custo": 8
+    },
+    {
+      "destino": "FIN003",
+      "custo": 9
+    },
+    {
+      "destino": "PROD017",
+      "custo": 41
+    },
+    {
+      "destino": "IOT018",
+      "custo": 43
+    }
+  ],
+  "FIN029": [
+    {
+      "destino": "FIN028",
+      "custo": 7
+    },
+    {
+      "destino": "FIN030",
+      "custo": 2
+    },
+    {
+      "destino": "FIN003",
+      "custo": 8
+    },
+    {
+      "destino": "FIN005",
+      "custo": 9
+    },
+    {
+      "destino": "FIN004",
+      "custo": 4
+    },
+    {
+      "destino": "FIN030",
+      "custo": 2
+    },
+    {
+      "destino": "FIN023",
+      "custo": 5
+    },
+    {
+      "destino": "FIN012",
+      "custo": 7
+    },
+    {
+      "destino": "FIN028",
+      "custo": 14
+    },
+    {
+      "destino": "FIN006",
+      "custo": 14
+    },
+    {
+      "destino": "FIN009",
+      "custo": 6
+    },
+    {
+      "destino": "PROD004",
+      "custo": 32
+    }
+  ],
+  "FIN030": [
+    {
+      "destino": "FIN029",
+      "custo": 2
+    },
+    {
+      "destino": "RH001",
+      "custo": 9
+    },
+    {
+      "destino": "FIN010",
+      "custo": 4
+    },
+    {
+      "destino": "FIN029",
+      "custo": 2
+    },
+    {
+      "destino": "FIN026",
+      "custo": 14
+    },
+    {
+      "destino": "SEC009",
+      "custo": 32
+    },
+    {
+      "destino": "IOT015",
+      "custo": 24
+    },
+    {
+      "destino": "IOT011",
+      "custo": 33
+    }
+  ],
+  "RH001": [
+    {
+      "destino": "FIN030",
+      "custo": 9
+    },
+    {
+      "destino": "RH002",
+      "custo": 5
+    },
+    {
+      "destino": "RH014",
+      "custo": 17
+    },
+    {
+      "destino": "RH010",
+      "custo": 10
+    },
+    {
+      "destino": "RH002",
+      "custo": 8
+    },
+    {
+      "destino": "RH004",
+      "custo": 14
+    },
+    {
+      "destino": "CLOUD003",
+      "custo": 45
+    }
+  ],
+  "RH002": [
+    {
+      "destino": "RH001",
+      "custo": 5
+    },
+    {
+      "destino": "RH003",
+      "custo": 10
+    },
+    {
+      "destino": "RH001",
+      "custo": 8
+    },
+    {
+      "destino": "RH015",
+      "custo": 18
+    },
+    {
+      "destino": "IOT045",
+      "custo": 18
+    },
+    {
+      "destino": "PROD006",
+      "custo": 12
+    },
+    {
+      "destino": "CORE011",
+      "custo": 30
+    },
+    {
+      "destino": "IOT016",
+      "custo": 17
+    },
+    {
+      "destino": "FIN012",
+      "custo": 60
+    }
+  ],
+  "RH003": [
+    {
+      "destino": "RH002",
+      "custo": 10
+    },
+    {
+      "destino": "RH004",
+      "custo": 6
+    },
+    {
+      "destino": "RH014",
+      "custo": 11
+    },
+    {
+      "destino": "RH006",
+      "custo": 10
+    },
+    {
+      "destino": "RH008",
+      "custo": 10
+    }
+  ],
+  "RH004": [
+    {
+      "destino": "RH003",
+      "custo": 6
+    },
+    {
+      "destino": "RH005",
+      "custo": 10
+    },
+    {
+      "destino": "RH013",
+      "custo": 19
+    },
+    {
+      "destino": "RH001",
+      "custo": 14
+    },
+    {
+      "destino": "RH008",
+      "custo": 15
+    }
+  ],
+  "RH005": [
+    {
+      "destino": "RH004",
+      "custo": 10
+    },
+    {
+      "destino": "RH006",
+      "custo": 4
+    },
+    {
+      "destino": "RH015",
+      "custo": 17
+    },
+    {
+      "destino": "FIN020",
+      "custo": 52
+    },
+    {
+      "destino": "PROD008",
+      "custo": 59
+    },
+    {
+      "destino": "PROD018",
+      "custo": 59
+    }
+  ],
+  "RH006": [
+    {
+      "destino": "RH005",
+      "custo": 4
+    },
+    {
+      "destino": "RH007",
+      "custo": 2
+    },
+    {
+      "destino": "RH020",
+      "custo": 19
+    },
+    {
+      "destino": "RH003",
+      "custo": 10
+    },
+    {
+      "destino": "RH008",
+      "custo": 17
+    },
+    {
+      "destino": "RH016",
+      "custo": 15
+    },
+    {
+      "destino": "IOT026",
+      "custo": 34
+    }
+  ],
+  "RH007": [
+    {
+      "destino": "RH006",
+      "custo": 2
+    },
+    {
+      "destino": "RH008",
+      "custo": 1
+    },
+    {
+      "destino": "RH009",
+      "custo": 2
+    },
+    {
+      "destino": "RH018",
+      "custo": 12
+    },
+    {
+      "destino": "RH014",
+      "custo": 13
+    },
+    {
+      "destino": "RH014",
+      "custo": 19
+    },
+    {
+      "destino": "RH017",
+      "custo": 16
+    },
+    {
+      "destino": "RH008",
+      "custo": 5
+    },
+    {
+      "destino": "RH013",
+      "custo": 16
+    },
+    {
+      "destino": "PROD032",
+      "custo": 48
+    }
+  ],
+  "RH008": [
+    {
+      "destino": "RH007",
+      "custo": 1
+    },
+    {
+      "destino": "RH009",
+      "custo": 4
+    },
+    {
+      "destino": "RH003",
+      "custo": 10
+    },
+    {
+      "destino": "RH007",
+      "custo": 5
+    },
+    {
+      "destino": "RH013",
+      "custo": 5
+    },
+    {
+      "destino": "RH006",
+      "custo": 17
+    },
+    {
+      "destino": "RH004",
+      "custo": 15
+    },
+    {
+      "destino": "RH009",
+      "custo": 9
+    },
+    {
+      "destino": "RH010",
+      "custo": 9
+    },
+    {
+      "destino": "IOT014",
+      "custo": 16
+    },
+    {
+      "destino": "IOT037",
+      "custo": 37
+    },
+    {
+      "destino": "CORE008",
+      "custo": 30
+    },
+    {
+      "destino": "PROD019",
+      "custo": 43
+    }
+  ],
+  "RH009": [
+    {
+      "destino": "RH008",
+      "custo": 4
+    },
+    {
+      "destino": "RH010",
+      "custo": 5
+    },
+    {
+      "destino": "RH007",
+      "custo": 2
+    },
+    {
+      "destino": "RH008",
+      "custo": 9
+    },
+    {
+      "destino": "RH015",
+      "custo": 3
+    },
+    {
+      "destino": "IOT019",
+      "custo": 45
+    }
+  ],
+  "RH010": [
+    {
+      "destino": "RH009",
+      "custo": 5
+    },
+    {
+      "destino": "RH011",
+      "custo": 2
+    },
+    {
+      "destino": "RH017",
+      "custo": 10
+    },
+    {
+      "destino": "RH018",
+      "custo": 5
+    },
+    {
+      "destino": "RH013",
+      "custo": 18
+    },
+    {
+      "destino": "RH001",
+      "custo": 10
+    },
+    {
+      "destino": "RH008",
+      "custo": 9
+    },
+    {
+      "destino": "IOT005",
+      "custo": 44
+    }
+  ],
+  "RH011": [
+    {
+      "destino": "RH010",
+      "custo": 2
+    },
+    {
+      "destino": "RH012",
+      "custo": 4
+    },
+    {
+      "destino": "RH020",
+      "custo": 4
+    },
+    {
+      "destino": "RH014",
+      "custo": 13
+    },
+    {
+      "destino": "RH020",
+      "custo": 15
+    },
+    {
+      "destino": "FIN018",
+      "custo": 16
+    },
+    {
+      "destino": "PROD008",
+      "custo": 17
+    },
+    {
+      "destino": "CORE018",
+      "custo": 59
+    },
+    {
+      "destino": "FIN016",
+      "custo": 60
+    }
+  ],
+  "RH012": [
+    {
+      "destino": "RH011",
+      "custo": 4
+    },
+    {
+      "destino": "RH013",
+      "custo": 2
+    },
+    {
+      "destino": "PROD010",
+      "custo": 60
+    },
+    {
+      "destino": "CORE013",
+      "custo": 36
+    },
+    {
+      "destino": "BACKUP004",
+      "custo": 19
+    },
+    {
+      "destino": "BACKUP008",
+      "custo": 52
+    }
+  ],
+  "RH013": [
+    {
+      "destino": "RH012",
+      "custo": 2
+    },
+    {
+      "destino": "RH014",
+      "custo": 7
+    },
+    {
+      "destino": "RH004",
+      "custo": 19
+    },
+    {
+      "destino": "RH010",
+      "custo": 18
+    },
+    {
+      "destino": "RH007",
+      "custo": 16
+    },
+    {
+      "destino": "RH008",
+      "custo": 5
+    },
+    {
+      "destino": "FIN008",
+      "custo": 37
+    }
+  ],
+  "RH014": [
+    {
+      "destino": "RH013",
+      "custo": 7
+    },
+    {
+      "destino": "RH015",
+      "custo": 5
+    },
+    {
+      "destino": "RH020",
+      "custo": 17
+    },
+    {
+      "destino": "RH001",
+      "custo": 17
+    },
+    {
+      "destino": "RH003",
+      "custo": 11
+    },
+    {
+      "destino": "RH011",
+      "custo": 13
+    },
+    {
+      "destino": "RH007",
+      "custo": 13
+    },
+    {
+      "destino": "RH007",
+      "custo": 19
+    },
+    {
+      "destino": "RH015",
+      "custo": 19
+    },
+    {
+      "destino": "RH018",
+      "custo": 15
+    },
+    {
+      "destino": "BACKUP002",
+      "custo": 38
+    }
+  ],
+  "RH015": [
+    {
+      "destino": "RH014",
+      "custo": 5
+    },
+    {
+      "destino": "RH016",
+      "custo": 8
+    },
+    {
+      "destino": "RH014",
+      "custo": 19
+    },
+    {
+      "destino": "RH002",
+      "custo": 18
+    },
+    {
+      "destino": "RH005",
+      "custo": 17
+    },
+    {
+      "destino": "RH020",
+      "custo": 17
+    },
+    {
+      "destino": "RH009",
+      "custo": 3
+    },
+    {
+      "destino": "PROD003",
+      "custo": 56
+    },
+    {
+      "destino": "CORE014",
+      "custo": 51
+    },
+    {
+      "destino": "SEC002",
+      "custo": 11
+    }
+  ],
+  "RH016": [
+    {
+      "destino": "RH015",
+      "custo": 8
+    },
+    {
+      "destino": "RH017",
+      "custo": 6
+    },
+    {
+      "destino": "RH020",
+      "custo": 3
+    },
+    {
+      "destino": "RH006",
+      "custo": 15
+    },
+    {
+      "destino": "RH017",
+      "custo": 8
+    },
+    {
+      "destino": "FIN018",
+      "custo": 22
+    },
+    {
+      "destino": "CORE005",
+      "custo": 23
+    }
+  ],
+  "RH017": [
+    {
+      "destino": "RH016",
+      "custo": 6
+    },
+    {
+      "destino": "RH018",
+      "custo": 3
+    },
+    {
+      "destino": "RH010",
+      "custo": 10
+    },
+    {
+      "destino": "RH007",
+      "custo": 16
+    },
+    {
+      "destino": "RH020",
+      "custo": 11
+    },
+    {
+      "destino": "RH016",
+      "custo": 8
+    }
+  ],
+  "RH018": [
+    {
+      "destino": "RH017",
+      "custo": 3
+    },
+    {
+      "destino": "RH019",
+      "custo": 6
+    },
+    {
+      "destino": "RH007",
+      "custo": 12
+    },
+    {
+      "destino": "RH010",
+      "custo": 5
+    },
+    {
+      "destino": "RH020",
+      "custo": 11
+    },
+    {
+      "destino": "RH014",
+      "custo": 15
+    },
+    {
+      "destino": "SEC009",
+      "custo": 26
+    }
+  ],
+  "RH019": [
+    {
+      "destino": "RH018",
+      "custo": 6
+    },
+    {
+      "destino": "RH020",
+      "custo": 6
+    },
+    {
+      "destino": "IOT023",
+      "custo": 15
+    }
+  ],
+  "RH020": [
+    {
+      "destino": "RH019",
+      "custo": 6
+    },
+    {
+      "destino": "PROD001",
+      "custo": 4
+    },
+    {
+      "destino": "RH014",
+      "custo": 17
+    },
+    {
+      "destino": "RH011",
+      "custo": 4
+    },
+    {
+      "destino": "RH006",
+      "custo": 19
+    },
+    {
+      "destino": "RH011",
+      "custo": 15
+    },
+    {
+      "destino": "RH017",
+      "custo": 11
+    },
+    {
+      "destino": "RH016",
+      "custo": 3
+    },
+    {
+      "destino": "RH018",
+      "custo": 11
+    },
+    {
+      "destino": "RH015",
+      "custo": 17
+    },
+    {
+      "destino": "PROD037",
+      "custo": 23
+    },
+    {
+      "destino": "PROD015",
+      "custo": 17
+    }
+  ],
+  "PROD001": [
+    {
+      "destino": "RH020",
+      "custo": 4
+    },
+    {
+      "destino": "PROD002",
+      "custo": 5
+    },
+    {
+      "destino": "PROD027",
+      "custo": 16
+    },
+    {
+      "destino": "PROD036",
+      "custo": 17
+    },
+    {
+      "destino": "PROD007",
+      "custo": 19
+    },
+    {
+      "destino": "IOT050",
+      "custo": 50
+    },
+    {
+      "destino": "IOT042",
+      "custo": 13
+    },
+    {
+      "destino": "FIN013",
+      "custo": 50
+    }
+  ],
+  "PROD002": [
+    {
+      "destino": "PROD001",
+      "custo": 5
+    },
+    {
+      "destino": "PROD003",
+      "custo": 2
+    },
+    {
+      "destino": "PROD038",
+      "custo": 19
+    },
+    {
+      "destino": "PROD032",
+      "custo": 13
+    },
+    {
+      "destino": "PROD035",
+      "custo": 13
+    },
+    {
+      "destino": "PROD031",
+      "custo": 18
+    },
+    {
+      "destino": "PROD032",
+      "custo": 11
+    },
+    {
+      "destino": "PROD029",
+      "custo": 3
+    },
+    {
+      "destino": "CLOUD007",
+      "custo": 25
+    }
+  ],
+  "PROD003": [
+    {
+      "destino": "PROD002",
+      "custo": 2
+    },
+    {
+      "destino": "PROD004",
+      "custo": 10
+    },
+    {
+      "destino": "PROD005",
+      "custo": 1
+    },
+    {
+      "destino": "PROD037",
+      "custo": 12
+    },
+    {
+      "destino": "PROD004",
+      "custo": 18
+    },
+    {
+      "destino": "CLOUD014",
+      "custo": 53
+    },
+    {
+      "destino": "PROD026",
+      "custo": 34
+    },
+    {
+      "destino": "RH015",
+      "custo": 56
+    },
+    {
+      "destino": "FIN012",
+      "custo": 15
+    },
+    {
+      "destino": "FIN001",
+      "custo": 26
+    }
+  ],
+  "PROD004": [
+    {
+      "destino": "PROD003",
+      "custo": 10
+    },
+    {
+      "destino": "PROD005",
+      "custo": 3
+    },
+    {
+      "destino": "PROD023",
+      "custo": 8
+    },
+    {
+      "destino": "PROD003",
+      "custo": 18
+    },
+    {
+      "destino": "CORE020",
+      "custo": 51
+    },
+    {
+      "destino": "CORE010",
+      "custo": 40
+    },
+    {
+      "destino": "FIN029",
+      "custo": 32
+    },
+    {
+      "destino": "IOT047",
+      "custo": 54
+    }
+  ],
+  "PROD005": [
+    {
+      "destino": "PROD004",
+      "custo": 3
+    },
+    {
+      "destino": "PROD006",
+      "custo": 9
+    },
+    {
+      "destino": "PROD014",
+      "custo": 14
+    },
+    {
+      "destino": "PROD003",
+      "custo": 1
+    },
+    {
+      "destino": "PROD033",
+      "custo": 11
+    },
+    {
+      "destino": "PROD014",
+      "custo": 17
+    },
+    {
+      "destino": "FIN010",
+      "custo": 35
+    },
+    {
+      "destino": "PROD040",
+      "custo": 10
+    },
+    {
+      "destino": "PROD007",
+      "custo": 20
+    }
+  ],
+  "PROD006": [
+    {
+      "destino": "PROD005",
+      "custo": 9
+    },
+    {
+      "destino": "PROD007",
+      "custo": 4
+    },
+    {
+      "destino": "PROD009",
+      "custo": 5
+    },
+    {
+      "destino": "PROD028",
+      "custo": 5
+    },
+    {
+      "destino": "PROD018",
+      "custo": 15
+    },
+    {
+      "destino": "PROD013",
+      "custo": 8
+    },
+    {
+      "destino": "IOT026",
+      "custo": 39
+    },
+    {
+      "destino": "FIN006",
+      "custo": 42
+    },
+    {
+      "destino": "RH002",
+      "custo": 12
+    },
+    {
+      "destino": "IOT030",
+      "custo": 30
+    },
+    {
+      "destino": "CLOUD010",
+      "custo": 29
+    }
+  ],
+  "PROD007": [
+    {
+      "destino": "PROD006",
+      "custo": 4
+    },
+    {
+      "destino": "PROD008",
+      "custo": 3
+    },
+    {
+      "destino": "PROD038",
+      "custo": 1
+    },
+    {
+      "destino": "PROD028",
+      "custo": 12
+    },
+    {
+      "destino": "PROD019",
+      "custo": 7
+    },
+    {
+      "destino": "PROD001",
+      "custo": 19
+    },
+    {
+      "destino": "PROD005",
+      "custo": 20
+    }
+  ],
+  "PROD008": [
+    {
+      "destino": "PROD007",
+      "custo": 3
+    },
+    {
+      "destino": "PROD009",
+      "custo": 8
+    },
+    {
+      "destino": "PROD011",
+      "custo": 10
+    },
+    {
+      "destino": "RH005",
+      "custo": 59
+    },
+    {
+      "destino": "RH011",
+      "custo": 17
+    },
+    {
+      "destino": "FIN020",
+      "custo": 20
+    },
+    {
+      "destino": "IOT048",
+      "custo": 44
+    }
+  ],
+  "PROD009": [
+    {
+      "destino": "PROD008",
+      "custo": 8
+    },
+    {
+      "destino": "PROD010",
+      "custo": 7
+    },
+    {
+      "destino": "PROD006",
+      "custo": 5
+    },
+    {
+      "destino": "PROD030",
+      "custo": 20
+    },
+    {
+      "destino": "PROD031",
+      "custo": 4
+    },
+    {
+      "destino": "PROD035",
+      "custo": 9
+    },
+    {
+      "destino": "PROD019",
+      "custo": 16
+    },
+    {
+      "destino": "CLOUD011",
+      "custo": 12
+    }
+  ],
+  "PROD010": [
+    {
+      "destino": "PROD009",
+      "custo": 7
+    },
+    {
+      "destino": "PROD011",
+      "custo": 5
+    },
+    {
+      "destino": "PROD040",
+      "custo": 8
+    },
+    {
+      "destino": "PROD030",
+      "custo": 14
+    },
+    {
+      "destino": "IOT044",
+      "custo": 32
+    },
+    {
+      "destino": "IOT009",
+      "custo": 38
+    },
+    {
+      "destino": "CLOUD008",
+      "custo": 54
+    },
+    {
+      "destino": "IOT034",
+      "custo": 34
+    },
+    {
+      "destino": "PROD023",
+      "custo": 21
+    },
+    {
+      "destino": "RH012",
+      "custo": 60
+    },
+    {
+      "destino": "IOT022",
+      "custo": 35
+    },
+    {
+      "destino": "PROD032",
+      "custo": 55
+    }
+  ],
+  "PROD011": [
+    {
+      "destino": "PROD010",
+      "custo": 5
+    },
+    {
+      "destino": "PROD012",
+      "custo": 9
+    },
+    {
+      "destino": "PROD008",
+      "custo": 10
+    },
+    {
+      "destino": "FIN005",
+      "custo": 37
+    },
+    {
+      "destino": "CLOUD011",
+      "custo": 26
+    },
+    {
+      "destino": "CORE020",
+      "custo": 46
+    },
+    {
+      "destino": "CLOUD001",
+      "custo": 19
+    }
+  ],
+  "PROD012": [
+    {
+      "destino": "PROD011",
+      "custo": 9
+    },
+    {
+      "destino": "PROD013",
+      "custo": 4
+    },
+    {
+      "destino": "PROD030",
+      "custo": 2
+    },
+    {
+      "destino": "PROD034",
+      "custo": 9
+    },
+    {
+      "destino": "PROD032",
+      "custo": 7
+    },
+    {
+      "destino": "PROD035",
+      "custo": 7
+    },
+    {
+      "destino": "PROD020",
+      "custo": 1
+    },
+    {
+      "destino": "CLOUD005",
+      "custo": 14
+    }
+  ],
+  "PROD013": [
+    {
+      "destino": "PROD012",
+      "custo": 4
+    },
+    {
+      "destino": "PROD014",
+      "custo": 6
+    },
+    {
+      "destino": "PROD016",
+      "custo": 1
+    },
+    {
+      "destino": "PROD026",
+      "custo": 3
+    },
+    {
+      "destino": "PROD006",
+      "custo": 8
+    },
+    {
+      "destino": "PROD021",
+      "custo": 4
+    },
+    {
+      "destino": "FIN001",
+      "custo": 48
+    },
+    {
+      "destino": "IOT045",
+      "custo": 40
+    },
+    {
+      "destino": "FIN022",
+      "custo": 55
+    }
+  ],
+  "PROD014": [
+    {
+      "destino": "PROD013",
+      "custo": 6
+    },
+    {
+      "destino": "PROD015",
+      "custo": 1
+    },
+    {
+      "destino": "PROD005",
+      "custo": 14
+    },
+    {
+      "destino": "PROD027",
+      "custo": 13
+    },
+    {
+      "destino": "PROD030",
+      "custo": 11
+    },
+    {
+      "destino": "PROD037",
+      "custo": 15
+    },
+    {
+      "destino": "PROD031",
+      "custo": 9
+    },
+    {
+      "destino": "PROD028",
+      "custo": 48
+    },
+    {
+      "destino": "BACKUP005",
+      "custo": 59
+    },
+    {
+      "destino": "PROD005",
+      "custo": 17
+    },
+    {
+      "destino": "CORE006",
+      "custo": 20
+    }
+  ],
+  "PROD015": [
+    {
+      "destino": "PROD014",
+      "custo": 1
+    },
+    {
+      "destino": "PROD016",
+      "custo": 4
+    },
+    {
+      "destino": "PROD025",
+      "custo": 5
+    },
+    {
+      "destino": "PROD039",
+      "custo": 16
+    },
+    {
+      "destino": "PROD018",
+      "custo": 14
+    },
+    {
+      "destino": "PROD019",
+      "custo": 13
+    },
+    {
+      "destino": "PROD017",
+      "custo": 4
+    },
+    {
+      "destino": "PROD019",
+      "custo": 12
+    },
+    {
+      "destino": "IOT034",
+      "custo": 52
+    },
+    {
+      "destino": "CORE017",
+      "custo": 16
+    },
+    {
+      "destino": "CLOUD005",
+      "custo": 18
+    },
+    {
+      "destino": "RH020",
+      "custo": 17
+    }
+  ],
+  "PROD016": [
+    {
+      "destino": "PROD015",
+      "custo": 4
+    },
+    {
+      "destino": "PROD017",
+      "custo": 1
+    },
+    {
+      "destino": "PROD013",
+      "custo": 1
+    },
+    {
+      "destino": "PROD038",
+      "custo": 4
+    },
+    {
+      "destino": "PROD030",
+      "custo": 19
+    },
+    {
+      "destino": "PROD031",
+      "custo": 16
+    },
+    {
+      "destino": "PROD020",
+      "custo": 19
+    },
+    {
+      "destino": "SEC010",
+      "custo": 20
+    },
+    {
+      "destino": "FIN001",
+      "custo": 47
+    },
+    {
+      "destino": "FIN018",
+      "custo": 18
+    },
+    {
+      "destino": "FIN015",
+      "custo": 12
+    }
+  ],
+  "PROD017": [
+    {
+      "destino": "PROD016",
+      "custo": 1
+    },
+    {
+      "destino": "PROD018",
+      "custo": 6
+    },
+    {
+      "destino": "PROD025",
+      "custo": 11
+    },
+    {
+      "destino": "PROD027",
+      "custo": 3
+    },
+    {
+      "destino": "PROD024",
+      "custo": 6
+    },
+    {
+      "destino": "PROD023",
+      "custo": 11
+    },
+    {
+      "destino": "PROD015",
+      "custo": 4
+    },
+    {
+      "destino": "PROD036",
+      "custo": 39
+    },
+    {
+      "destino": "PROD020",
+      "custo": 10
+    },
+    {
+      "destino": "SEC001",
+      "custo": 24
+    },
+    {
+      "destino": "SEC007",
+      "custo": 49
+    },
+    {
+      "destino": "FIN028",
+      "custo": 41
+    },
+    {
+      "destino": "IOT035",
+      "custo": 12
+    }
+  ],
+  "PROD018": [
+    {
+      "destino": "PROD017",
+      "custo": 6
+    },
+    {
+      "destino": "PROD019",
+      "custo": 7
+    },
+    {
+      "destino": "PROD015",
+      "custo": 14
+    },
+    {
+      "destino": "PROD021",
+      "custo": 8
+    },
+    {
+      "destino": "PROD006",
+      "custo": 15
+    },
+    {
+      "destino": "PROD039",
+      "custo": 9
+    },
+    {
+      "destino": "PROD030",
+      "custo": 10
+    },
+    {
+      "destino": "RH005",
+      "custo": 59
+    }
+  ],
+  "PROD019": [
+    {
+      "destino": "PROD018",
+      "custo": 7
+    },
+    {
+      "destino": "PROD020",
+      "custo": 5
+    },
+    {
+      "destino": "PROD015",
+      "custo": 13
+    },
+    {
+      "destino": "PROD007",
+      "custo": 7
+    },
+    {
+      "destino": "PROD015",
+      "custo": 12
+    },
+    {
+      "destino": "PROD009",
+      "custo": 16
+    },
+    {
+      "destino": "PROD031",
+      "custo": 16
+    },
+    {
+      "destino": "IOT001",
+      "custo": 17
+    },
+    {
+      "destino": "CLOUD011",
+      "custo": 55
+    },
+    {
+      "destino": "IOT023",
+      "custo": 18
+    },
+    {
+      "destino": "RH008",
+      "custo": 43
+    }
+  ],
+  "PROD020": [
+    {
+      "destino": "PROD019",
+      "custo": 5
+    },
+    {
+      "destino": "PROD021",
+      "custo": 2
+    },
+    {
+      "destino": "PROD023",
+      "custo": 13
+    },
+    {
+      "destino": "PROD037",
+      "custo": 13
+    },
+    {
+      "destino": "PROD039",
+      "custo": 4
+    },
+    {
+      "destino": "PROD016",
+      "custo": 19
+    },
+    {
+      "destino": "PROD012",
+      "custo": 1
+    },
+    {
+      "destino": "IOT033",
+      "custo": 33
+    },
+    {
+      "destino": "PROD017",
+      "custo": 10
+    },
+    {
+      "destino": "BACKUP007",
+      "custo": 51
+    },
+    {
+      "destino": "IOT006",
+      "custo": 11
+    },
+    {
+      "destino": "IOT004",
+      "custo": 38
+    }
+  ],
+  "PROD021": [
+    {
+      "destino": "PROD020",
+      "custo": 2
+    },
+    {
+      "destino": "PROD022",
+      "custo": 4
+    },
+    {
+      "destino": "PROD022",
+      "custo": 18
+    },
+    {
+      "destino": "PROD018",
+      "custo": 8
+    },
+    {
+      "destino": "PROD013",
+      "custo": 4
+    },
+    {
+      "destino": "CLOUD012",
+      "custo": 14
+    },
+    {
+      "destino": "IOT020",
+      "custo": 14
+    },
+    {
+      "destino": "IOT048",
+      "custo": 25
+    },
+    {
+      "destino": "IOT030",
+      "custo": 31
+    }
+  ],
+  "PROD022": [
+    {
+      "destino": "PROD021",
+      "custo": 4
+    },
+    {
+      "destino": "PROD023",
+      "custo": 10
+    },
+    {
+      "destino": "PROD021",
+      "custo": 18
+    },
+    {
+      "destino": "PROD027",
+      "custo": 18
+    },
+    {
+      "destino": "PROD026",
+      "custo": 6
+    },
+    {
+      "destino": "PROD025",
+      "custo": 9
+    },
+    {
+      "destino": "PROD036",
+      "custo": 12
+    },
+    {
+      "destino": "CORE018",
+      "custo": 32
+    }
+  ],
+  "PROD023": [
+    {
+      "destino": "PROD022",
+      "custo": 10
+    },
+    {
+      "destino": "PROD024",
+      "custo": 6
+    },
+    {
+      "destino": "PROD020",
+      "custo": 13
+    },
+    {
+      "destino": "PROD004",
+      "custo": 8
+    },
+    {
+      "destino": "PROD017",
+      "custo": 11
+    },
+    {
+      "destino": "PROD034",
+      "custo": 14
+    },
+    {
+      "destino": "FIN003",
+      "custo": 37
+    },
+    {
+      "destino": "IOT021",
+      "custo": 11
+    },
+    {
+      "destino": "PROD010",
+      "custo": 21
+    },
+    {
+      "destino": "IOT025",
+      "custo": 14
+    },
+    {
+      "destino": "IOT021",
+      "custo": 24
+    }
+  ],
+  "PROD024": [
+    {
+      "destino": "PROD023",
+      "custo": 6
+    },
+    {
+      "destino": "PROD025",
+      "custo": 4
+    },
+    {
+      "destino": "PROD017",
+      "custo": 6
+    },
+    {
+      "destino": "PROD031",
+      "custo": 18
+    },
+    {
+      "destino": "IOT022",
+      "custo": 57
+    },
+    {
+      "destino": "CLOUD006",
+      "custo": 33
+    },
+    {
+      "destino": "PROD032",
+      "custo": 30
+    }
+  ],
+  "PROD025": [
+    {
+      "destino": "PROD024",
+      "custo": 4
+    },
+    {
+      "destino": "PROD026",
+      "custo": 8
+    },
+    {
+      "destino": "PROD015",
+      "custo": 5
+    },
+    {
+      "destino": "PROD031",
+      "custo": 1
+    },
+    {
+      "destino": "PROD017",
+      "custo": 11
+    },
+    {
+      "destino": "PROD022",
+      "custo": 9
+    },
+    {
+      "destino": "PROD040",
+      "custo": 11
+    },
+    {
+      "destino": "FIN021",
+      "custo": 29
+    },
+    {
+      "destino": "IOT002",
+      "custo": 35
+    },
+    {
+      "destino": "IOT006",
+      "custo": 33
+    }
+  ],
+  "PROD026": [
+    {
+      "destino": "PROD025",
+      "custo": 8
+    },
+    {
+      "destino": "PROD027",
+      "custo": 7
+    },
+    {
+      "destino": "PROD022",
+      "custo": 6
+    },
+    {
+      "destino": "PROD013",
+      "custo": 3
+    },
+    {
+      "destino": "FIN020",
+      "custo": 53
+    },
+    {
+      "destino": "FIN014",
+      "custo": 45
+    },
+    {
+      "destino": "PROD003",
+      "custo": 34
+    },
+    {
+      "destino": "IOT014",
+      "custo": 45
+    },
+    {
+      "destino": "IOT019",
+      "custo": 25
+    }
+  ],
+  "PROD027": [
+    {
+      "destino": "PROD026",
+      "custo": 7
+    },
+    {
+      "destino": "PROD028",
+      "custo": 8
+    },
+    {
+      "destino": "PROD022",
+      "custo": 18
+    },
+    {
+      "destino": "PROD030",
+      "custo": 2
+    },
+    {
+      "destino": "PROD014",
+      "custo": 13
+    },
+    {
+      "destino": "PROD035",
+      "custo": 18
+    },
+    {
+      "destino": "PROD017",
+      "custo": 3
+    },
+    {
+      "destino": "PROD001",
+      "custo": 16
+    },
+    {
+      "destino": "PROD032",
+      "custo": 18
+    }
+  ],
+  "PROD028": [
+    {
+      "destino": "PROD027",
+      "custo": 8
+    },
+    {
+      "destino": "PROD029",
+      "custo": 3
+    },
+    {
+      "destino": "PROD006",
+      "custo": 5
+    },
+    {
+      "destino": "PROD035",
+      "custo": 12
+    },
+    {
+      "destino": "PROD007",
+      "custo": 12
+    },
+    {
+      "destino": "PROD030",
+      "custo": 19
+    },
+    {
+      "destino": "PROD014",
+      "custo": 48
+    },
+    {
+      "destino": "IOT027",
+      "custo": 55
+    },
+    {
+      "destino": "SEC010",
+      "custo": 42
+    }
+  ],
+  "PROD029": [
+    {
+      "destino": "PROD028",
+      "custo": 3
+    },
+    {
+      "destino": "PROD030",
+      "custo": 5
+    },
+    {
+      "destino": "PROD002",
+      "custo": 3
+    },
+    {
+      "destino": "IOT020",
+      "custo": 39
+    },
+    {
+      "destino": "FIN001",
+      "custo": 33
+    },
+    {
+      "destino": "IOT036",
+      "custo": 12
+    }
+  ],
+  "PROD030": [
+    {
+      "destino": "PROD029",
+      "custo": 5
+    },
+    {
+      "destino": "PROD031",
+      "custo": 3
+    },
+    {
+      "destino": "PROD027",
+      "custo": 2
+    },
+    {
+      "destino": "PROD009",
+      "custo": 20
+    },
+    {
+      "destino": "PROD012",
+      "custo": 2
+    },
+    {
+      "destino": "PROD014",
+      "custo": 11
+    },
+    {
+      "destino": "PROD010",
+      "custo": 14
+    },
+    {
+      "destino": "PROD028",
+      "custo": 19
+    },
+    {
+      "destino": "PROD016",
+      "custo": 19
+    },
+    {
+      "destino": "PROD018",
+      "custo": 10
+    },
+    {
+      "destino": "IOT011",
+      "custo": 12
+    },
+    {
+      "destino": "CLOUD003",
+      "custo": 33
+    },
+    {
+      "destino": "IOT034",
+      "custo": 17
+    }
+  ],
+  "PROD031": [
+    {
+      "destino": "PROD030",
+      "custo": 3
+    },
+    {
+      "destino": "PROD032",
+      "custo": 4
+    },
+    {
+      "destino": "PROD025",
+      "custo": 1
+    },
+    {
+      "destino": "PROD002",
+      "custo": 18
+    },
+    {
+      "destino": "PROD009",
+      "custo": 4
+    },
+    {
+      "destino": "PROD016",
+      "custo": 16
+    },
+    {
+      "destino": "PROD024",
+      "custo": 18
+    },
+    {
+      "destino": "PROD014",
+      "custo": 9
+    },
+    {
+      "destino": "PROD019",
+      "custo": 16
+    },
+    {
+      "destino": "CLOUD010",
+      "custo": 18
+    }
+  ],
+  "PROD032": [
+    {
+      "destino": "PROD031",
+      "custo": 4
+    },
+    {
+      "destino": "PROD033",
+      "custo": 9
+    },
+    {
+      "destino": "PROD002",
+      "custo": 13
+    },
+    {
+      "destino": "PROD002",
+      "custo": 11
+    },
+    {
+      "destino": "PROD012",
+      "custo": 7
+    },
+    {
+      "destino": "PROD027",
+      "custo": 18
+    },
+    {
+      "destino": "RH007",
+      "custo": 48
+    },
+    {
+      "destino": "BACKUP010",
+      "custo": 12
+    },
+    {
+      "destino": "FIN001",
+      "custo": 29
+    },
+    {
+      "destino": "PROD024",
+      "custo": 30
+    },
+    {
+      "destino": "PROD010",
+      "custo": 55
+    }
+  ],
+  "PROD033": [
+    {
+      "destino": "PROD032",
+      "custo": 9
+    },
+    {
+      "destino": "PROD034",
+      "custo": 9
+    },
+    {
+      "destino": "PROD005",
+      "custo": 11
+    },
+    {
+      "destino": "IOT013",
+      "custo": 37
+    },
+    {
+      "destino": "PROD037",
+      "custo": 56
+    },
+    {
+      "destino": "CLOUD009",
+      "custo": 14
+    },
+    {
+      "destino": "IOT041",
+      "custo": 43
+    }
+  ],
+  "PROD034": [
+    {
+      "destino": "PROD033",
+      "custo": 9
+    },
+    {
+      "destino": "PROD035",
+      "custo": 5
+    },
+    {
+      "destino": "PROD012",
+      "custo": 9
+    },
+    {
+      "destino": "PROD023",
+      "custo": 14
+    },
+    {
+      "destino": "PROD038",
+      "custo": 20
+    }
+  ],
+  "PROD035": [
+    {
+      "destino": "PROD034",
+      "custo": 5
+    },
+    {
+      "destino": "PROD036",
+      "custo": 10
+    },
+    {
+      "destino": "PROD027",
+      "custo": 18
+    },
+    {
+      "destino": "PROD002",
+      "custo": 13
+    },
+    {
+      "destino": "PROD028",
+      "custo": 12
+    },
+    {
+      "destino": "PROD040",
+      "custo": 16
+    },
+    {
+      "destino": "PROD012",
+      "custo": 7
+    },
+    {
+      "destino": "PROD009",
+      "custo": 9
+    },
+    {
+      "destino": "SEC009",
+      "custo": 31
+    }
+  ],
+  "PROD036": [
+    {
+      "destino": "PROD035",
+      "custo": 10
+    },
+    {
+      "destino": "PROD037",
+      "custo": 7
+    },
+    {
+      "destino": "PROD001",
+      "custo": 17
+    },
+    {
+      "destino": "PROD022",
+      "custo": 12
+    },
+    {
+      "destino": "PROD017",
+      "custo": 39
+    },
+    {
+      "destino": "FIN012",
+      "custo": 32
+    },
+    {
+      "destino": "CORE012",
+      "custo": 33
+    },
+    {
+      "destino": "SEC007",
+      "custo": 36
+    }
+  ],
+  "PROD037": [
+    {
+      "destino": "PROD036",
+      "custo": 7
+    },
+    {
+      "destino": "PROD038",
+      "custo": 10
+    },
+    {
+      "destino": "PROD038",
+      "custo": 1
+    },
+    {
+      "destino": "PROD014",
+      "custo": 15
+    },
+    {
+      "destino": "PROD020",
+      "custo": 13
+    },
+    {
+      "destino": "PROD003",
+      "custo": 12
+    },
+    {
+      "destino": "PROD033",
+      "custo": 56
+    },
+    {
+      "destino": "RH020",
+      "custo": 23
+    },
+    {
+      "destino": "CORE014",
+      "custo": 35
+    },
+    {
+      "destino": "IOT037",
+      "custo": 21
+    }
+  ],
+  "PROD038": [
+    {
+      "destino": "PROD037",
+      "custo": 10
+    },
+    {
+      "destino": "PROD039",
+      "custo": 7
+    },
+    {
+      "destino": "PROD002",
+      "custo": 19
+    },
+    {
+      "destino": "PROD037",
+      "custo": 1
+    },
+    {
+      "destino": "PROD007",
+      "custo": 1
+    },
+    {
+      "destino": "PROD016",
+      "custo": 4
+    },
+    {
+      "destino": "PROD034",
+      "custo": 20
+    },
+    {
+      "destino": "IOT007",
+      "custo": 31
+    },
+    {
+      "destino": "IOT026",
+      "custo": 20
+    }
+  ],
+  "PROD039": [
+    {
+      "destino": "PROD038",
+      "custo": 7
+    },
+    {
+      "destino": "PROD040",
+      "custo": 6
+    },
+    {
+      "destino": "PROD015",
+      "custo": 16
+    },
+    {
+      "destino": "PROD020",
+      "custo": 4
+    },
+    {
+      "destino": "PROD018",
+      "custo": 9
+    },
+    {
+      "destino": "BACKUP007",
+      "custo": 15
+    }
+  ],
+  "PROD040": [
+    {
+      "destino": "PROD039",
+      "custo": 6
+    },
+    {
+      "destino": "IOT001",
+      "custo": 4
+    },
+    {
+      "destino": "PROD010",
+      "custo": 8
+    },
+    {
+      "destino": "PROD035",
+      "custo": 16
+    },
+    {
+      "destino": "PROD025",
+      "custo": 11
+    },
+    {
+      "destino": "IOT037",
+      "custo": 35
+    },
+    {
+      "destino": "PROD005",
+      "custo": 10
+    },
+    {
+      "destino": "FIN023",
+      "custo": 54
+    }
+  ],
+  "IOT001": [
+    {
+      "destino": "PROD040",
+      "custo": 4
+    },
+    {
+      "destino": "IOT002",
+      "custo": 3
+    },
+    {
+      "destino": "IOT027",
+      "custo": 15
+    },
+    {
+      "destino": "IOT043",
+      "custo": 18
+    },
+    {
+      "destino": "IOT019",
+      "custo": 10
+    },
+    {
+      "destino": "IOT006",
+      "custo": 24
+    },
+    {
+      "destino": "PROD019",
+      "custo": 17
+    },
+    {
+      "destino": "FIN025",
+      "custo": 18
+    },
+    {
+      "destino": "IOT045",
+      "custo": 21
+    },
+    {
+      "destino": "FIN014",
+      "custo": 42
+    }
+  ],
+  "IOT002": [
+    {
+      "destino": "IOT001",
+      "custo": 3
+    },
+    {
+      "destino": "IOT003",
+      "custo": 9
+    },
+    {
+      "destino": "IOT038",
+      "custo": 9
+    },
+    {
+      "destino": "IOT041",
+      "custo": 20
+    },
+    {
+      "destino": "CORE005",
+      "custo": 39
+    },
+    {
+      "destino": "FIN004",
+      "custo": 24
+    },
+    {
+      "destino": "PROD025",
+      "custo": 35
+    },
+    {
+      "destino": "IOT048",
+      "custo": 27
+    }
+  ],
+  "IOT003": [
+    {
+      "destino": "IOT002",
+      "custo": 9
+    },
+    {
+      "destino": "IOT004",
+      "custo": 8
+    },
+    {
+      "destino": "IOT019",
+      "custo": 8
+    },
+    {
+      "destino": "IOT028",
+      "custo": 11
+    },
+    {
+      "destino": "IOT037",
+      "custo": 6
+    },
+    {
+      "destino": "IOT021",
+      "custo": 16
+    },
+    {
+      "destino": "IOT032",
+      "custo": 5
+    },
+    {
+      "destino": "IOT035",
+      "custo": 20
+    },
+    {
+      "destino": "CORE018",
+      "custo": 40
+    },
+    {
+      "destino": "IOT025",
+      "custo": 43
+    },
+    {
+      "destino": "SEC001",
+      "custo": 34
+    },
+    {
+      "destino": "CORE009",
+      "custo": 18
+    }
+  ],
+  "IOT004": [
+    {
+      "destino": "IOT003",
+      "custo": 8
+    },
+    {
+      "destino": "IOT005",
+      "custo": 2
+    },
+    {
+      "destino": "IOT017",
+      "custo": 16
+    },
+    {
+      "destino": "IOT040",
+      "custo": 4
+    },
+    {
+      "destino": "IOT011",
+      "custo": 10
+    },
+    {
+      "destino": "BACKUP003",
+      "custo": 14
+    },
+    {
+      "destino": "CLOUD010",
+      "custo": 37
+    },
+    {
+      "destino": "CLOUD002",
+      "custo": 29
+    },
+    {
+      "destino": "IOT047",
+      "custo": 28
+    },
+    {
+      "destino": "PROD020",
+      "custo": 38
+    },
+    {
+      "destino": "SEC006",
+      "custo": 14
+    }
+  ],
+  "IOT005": [
+    {
+      "destino": "IOT004",
+      "custo": 2
+    },
+    {
+      "destino": "IOT006",
+      "custo": 1
+    },
+    {
+      "destino": "IOT008",
+      "custo": 13
+    },
+    {
+      "destino": "IOT032",
+      "custo": 19
+    },
+    {
+      "destino": "IOT036",
+      "custo": 6
+    },
+    {
+      "destino": "IOT018",
+      "custo": 14
+    },
+    {
+      "destino": "IOT016",
+      "custo": 10
+    },
+    {
+      "destino": "RH010",
+      "custo": 44
+    },
+    {
+      "destino": "IOT045",
+      "custo": 55
+    },
+    {
+      "destino": "BACKUP001",
+      "custo": 23
+    }
+  ],
+  "IOT006": [
+    {
+      "destino": "IOT005",
+      "custo": 1
+    },
+    {
+      "destino": "IOT007",
+      "custo": 2
+    },
+    {
+      "destino": "IOT029",
+      "custo": 20
+    },
+    {
+      "destino": "IOT015",
+      "custo": 19
+    },
+    {
+      "destino": "IOT031",
+      "custo": 12
+    },
+    {
+      "destino": "IOT030",
+      "custo": 11
+    },
+    {
+      "destino": "IOT042",
+      "custo": 11
+    },
+    {
+      "destino": "IOT001",
+      "custo": 24
+    },
+    {
+      "destino": "FIN007",
+      "custo": 31
+    },
+    {
+      "destino": "IOT022",
+      "custo": 19
+    },
+    {
+      "destino": "PROD020",
+      "custo": 11
+    },
+    {
+      "destino": "PROD025",
+      "custo": 33
+    },
+    {
+      "destino": "IOT010",
+      "custo": 53
+    }
+  ],
+  "IOT007": [
+    {
+      "destino": "IOT006",
+      "custo": 2
+    },
+    {
+      "destino": "IOT008",
+      "custo": 3
+    },
+    {
+      "destino": "IOT043",
+      "custo": 6
+    },
+    {
+      "destino": "IOT029",
+      "custo": 4
+    },
+    {
+      "destino": "PROD038",
+      "custo": 31
+    }
+  ],
+  "IOT008": [
+    {
+      "destino": "IOT007",
+      "custo": 3
+    },
+    {
+      "destino": "IOT009",
+      "custo": 3
+    },
+    {
+      "destino": "IOT005",
+      "custo": 13
+    },
+    {
+      "destino": "IOT016",
+      "custo": 18
+    },
+    {
+      "destino": "IOT028",
+      "custo": 18
+    },
+    {
+      "destino": "IOT015",
+      "custo": 15
+    },
+    {
+      "destino": "IOT042",
+      "custo": 5
+    },
+    {
+      "destino": "IOT049",
+      "custo": 54
+    },
+    {
+      "destino": "SEC009",
+      "custo": 12
+    }
+  ],
+  "IOT009": [
+    {
+      "destino": "IOT008",
+      "custo": 3
+    },
+    {
+      "destino": "IOT010",
+      "custo": 7
+    },
+    {
+      "destino": "IOT019",
+      "custo": 15
+    },
+    {
+      "destino": "SEC004",
+      "custo": 46
+    },
+    {
+      "destino": "PROD010",
+      "custo": 38
+    },
+    {
+      "destino": "SEC007",
+      "custo": 28
+    },
+    {
+      "destino": "CLOUD016",
+      "custo": 54
+    }
+  ],
+  "IOT010": [
+    {
+      "destino": "IOT009",
+      "custo": 7
+    },
+    {
+      "destino": "IOT011",
+      "custo": 10
+    },
+    {
+      "destino": "IOT018",
+      "custo": 3
+    },
+    {
+      "destino": "IOT025",
+      "custo": 7
+    },
+    {
+      "destino": "IOT047",
+      "custo": 14
+    },
+    {
+      "destino": "IOT042",
+      "custo": 3
+    },
+    {
+      "destino": "IOT032",
+      "custo": 18
+    },
+    {
+      "destino": "IOT006",
+      "custo": 53
+    }
+  ],
+  "IOT011": [
+    {
+      "destino": "IOT010",
+      "custo": 10
+    },
+    {
+      "destino": "IOT012",
+      "custo": 2
+    },
+    {
+      "destino": "IOT016",
+      "custo": 6
+    },
+    {
+      "destino": "IOT004",
+      "custo": 10
+    },
+    {
+      "destino": "FIN030",
+      "custo": 33
+    },
+    {
+      "destino": "BACKUP001",
+      "custo": 38
+    },
+    {
+      "destino": "PROD030",
+      "custo": 12
+    }
+  ],
+  "IOT012": [
+    {
+      "destino": "IOT011",
+      "custo": 2
+    },
+    {
+      "destino": "IOT013",
+      "custo": 7
+    },
+    {
+      "destino": "IOT018",
+      "custo": 19
+    },
+    {
+      "destino": "CORE018",
+      "custo": 15
+    },
+    {
+      "destino": "IOT030",
+      "custo": 26
+    }
+  ],
+  "IOT013": [
+    {
+      "destino": "IOT012",
+      "custo": 7
+    },
+    {
+      "destino": "IOT014",
+      "custo": 7
+    },
+    {
+      "destino": "IOT034",
+      "custo": 12
+    },
+    {
+      "destino": "PROD033",
+      "custo": 37
+    },
+    {
+      "destino": "CLOUD002",
+      "custo": 21
+    },
+    {
+      "destino": "BACKUP005",
+      "custo": 43
+    }
+  ],
+  "IOT014": [
+    {
+      "destino": "IOT013",
+      "custo": 7
+    },
+    {
+      "destino": "IOT015",
+      "custo": 10
+    },
+    {
+      "destino": "IOT049",
+      "custo": 7
+    },
+    {
+      "destino": "IOT018",
+      "custo": 18
+    },
+    {
+      "destino": "RH008",
+      "custo": 16
+    },
+    {
+      "destino": "PROD026",
+      "custo": 45
+    }
+  ],
+  "IOT015": [
+    {
+      "destino": "IOT014",
+      "custo": 10
+    },
+    {
+      "destino": "IOT016",
+      "custo": 8
+    },
+    {
+      "destino": "IOT044",
+      "custo": 9
+    },
+    {
+      "destino": "IOT042",
+      "custo": 5
+    },
+    {
+      "destino": "IOT006",
+      "custo": 19
+    },
+    {
+      "destino": "IOT008",
+      "custo": 15
+    },
+    {
+      "destino": "IOT025",
+      "custo": 14
+    },
+    {
+      "destino": "IOT046",
+      "custo": 38
+    },
+    {
+      "destino": "IOT042",
+      "custo": 43
+    },
+    {
+      "destino": "FIN030",
+      "custo": 24
+    }
+  ],
+  "IOT016": [
+    {
+      "destino": "IOT015",
+      "custo": 8
+    },
+    {
+      "destino": "IOT017",
+      "custo": 9
+    },
+    {
+      "destino": "IOT008",
+      "custo": 18
+    },
+    {
+      "destino": "IOT011",
+      "custo": 6
+    },
+    {
+      "destino": "IOT046",
+      "custo": 6
+    },
+    {
+      "destino": "IOT030",
+      "custo": 18
+    },
+    {
+      "destino": "IOT045",
+      "custo": 19
+    },
+    {
+      "destino": "IOT005",
+      "custo": 10
+    },
+    {
+      "destino": "RH002",
+      "custo": 17
+    }
+  ],
+  "IOT017": [
+    {
+      "destino": "IOT016",
+      "custo": 9
+    },
+    {
+      "destino": "IOT018",
+      "custo": 5
+    },
+    {
+      "destino": "IOT004",
+      "custo": 16
+    },
+    {
+      "destino": "IOT043",
+      "custo": 3
+    },
+    {
+      "destino": "IOT039",
+      "custo": 1
+    },
+    {
+      "destino": "IOT021",
+      "custo": 4
+    },
+    {
+      "destino": "IOT031",
+      "custo": 11
+    },
+    {
+      "destino": "CORE007",
+      "custo": 33
+    }
+  ],
+  "IOT018": [
+    {
+      "destino": "IOT017",
+      "custo": 5
+    },
+    {
+      "destino": "IOT019",
+      "custo": 9
+    },
+    {
+      "destino": "IOT010",
+      "custo": 3
+    },
+    {
+      "destino": "IOT012",
+      "custo": 19
+    },
+    {
+      "destino": "IOT014",
+      "custo": 18
+    },
+    {
+      "destino": "IOT005",
+      "custo": 14
+    },
+    {
+      "destino": "CORE002",
+      "custo": 57
+    },
+    {
+      "destino": "CLOUD018",
+      "custo": 33
+    },
+    {
+      "destino": "FIN028",
+      "custo": 43
+    }
+  ],
+  "IOT019": [
+    {
+      "destino": "IOT018",
+      "custo": 9
+    },
+    {
+      "destino": "IOT020",
+      "custo": 1
+    },
+    {
+      "destino": "IOT003",
+      "custo": 8
+    },
+    {
+      "destino": "IOT046",
+      "custo": 10
+    },
+    {
+      "destino": "IOT029",
+      "custo": 4
+    },
+    {
+      "destino": "IOT043",
+      "custo": 13
+    },
+    {
+      "destino": "IOT009",
+      "custo": 15
+    },
+    {
+      "destino": "IOT001",
+      "custo": 10
+    },
+    {
+      "destino": "RH009",
+      "custo": 45
+    },
+    {
+      "destino": "FIN019",
+      "custo": 13
+    },
+    {
+      "destino": "PROD026",
+      "custo": 25
+    },
+    {
+      "destino": "FIN004",
+      "custo": 51
+    }
+  ],
+  "IOT020": [
+    {
+      "destino": "IOT019",
+      "custo": 1
+    },
+    {
+      "destino": "IOT021",
+      "custo": 2
+    },
+    {
+      "destino": "IOT037",
+      "custo": 3
+    },
+    {
+      "destino": "IOT038",
+      "custo": 14
+    },
+    {
+      "destino": "IOT037",
+      "custo": 20
+    },
+    {
+      "destino": "IOT036",
+      "custo": 1
+    },
+    {
+      "destino": "IOT045",
+      "custo": 37
+    },
+    {
+      "destino": "PROD021",
+      "custo": 14
+    },
+    {
+      "destino": "PROD029",
+      "custo": 39
+    },
+    {
+      "destino": "IOT032",
+      "custo": 11
+    }
+  ],
+  "IOT021": [
+    {
+      "destino": "IOT020",
+      "custo": 2
+    },
+    {
+      "destino": "IOT022",
+      "custo": 9
+    },
+    {
+      "destino": "IOT017",
+      "custo": 4
+    },
+    {
+      "destino": "IOT030",
+      "custo": 7
+    },
+    {
+      "destino": "IOT003",
+      "custo": 16
+    },
+    {
+      "destino": "IOT041",
+      "custo": 16
+    },
+    {
+      "destino": "CORE020",
+      "custo": 50
+    },
+    {
+      "destino": "PROD023",
+      "custo": 11
+    },
+    {
+      "destino": "PROD023",
+      "custo": 24
+    }
+  ],
+  "IOT022": [
+    {
+      "destino": "IOT021",
+      "custo": 9
+    },
+    {
+      "destino": "IOT023",
+      "custo": 5
+    },
+    {
+      "destino": "IOT029",
+      "custo": 6
+    },
+    {
+      "destino": "IOT027",
+      "custo": 11
+    },
+    {
+      "destino": "IOT027",
+      "custo": 16
+    },
+    {
+      "destino": "IOT033",
+      "custo": 9
+    },
+    {
+      "destino": "IOT023",
+      "custo": 18
+    },
+    {
+      "destino": "SEC004",
+      "custo": 17
+    },
+    {
+      "destino": "IOT006",
+      "custo": 19
+    },
+    {
+      "destino": "CLOUD002",
+      "custo": 46
+    },
+    {
+      "destino": "PROD010",
+      "custo": 35
+    },
+    {
+      "destino": "PROD024",
+      "custo": 57
+    }
+  ],
+  "IOT023": [
+    {
+      "destino": "IOT022",
+      "custo": 5
+    },
+    {
+      "destino": "IOT024",
+      "custo": 6
+    },
+    {
+      "destino": "IOT022",
+      "custo": 18
+    },
+    {
+      "destino": "RH019",
+      "custo": 15
+    },
+    {
+      "destino": "PROD019",
+      "custo": 18
+    }
+  ],
+  "IOT024": [
+    {
+      "destino": "IOT023",
+      "custo": 6
+    },
+    {
+      "destino": "IOT025",
+      "custo": 2
+    }
+  ],
+  "IOT025": [
+    {
+      "destino": "IOT024",
+      "custo": 2
+    },
+    {
+      "destino": "IOT026",
+      "custo": 5
+    },
+    {
+      "destino": "IOT010",
+      "custo": 7
+    },
+    {
+      "destino": "IOT015",
+      "custo": 14
+    },
+    {
+      "destino": "IOT046",
+      "custo": 13
+    },
+    {
+      "destino": "IOT003",
+      "custo": 43
+    },
+    {
+      "destino": "CLOUD016",
+      "custo": 15
+    },
+    {
+      "destino": "CORE010",
+      "custo": 52
+    },
+    {
+      "destino": "PROD023",
+      "custo": 14
+    },
+    {
+      "destino": "IOT030",
+      "custo": 42
+    }
+  ],
+  "IOT026": [
+    {
+      "destino": "IOT025",
+      "custo": 5
+    },
+    {
+      "destino": "IOT027",
+      "custo": 7
+    },
+    {
+      "destino": "IOT045",
+      "custo": 9
+    },
+    {
+      "destino": "IOT050",
+      "custo": 17
+    },
+    {
+      "destino": "PROD006",
+      "custo": 39
+    },
+    {
+      "destino": "RH006",
+      "custo": 34
+    },
+    {
+      "destino": "FIN010",
+      "custo": 42
+    },
+    {
+      "destino": "PROD038",
+      "custo": 20
+    },
+    {
+      "destino": "IOT046",
+      "custo": 37
+    }
+  ],
+  "IOT027": [
+    {
+      "destino": "IOT026",
+      "custo": 7
+    },
+    {
+      "destino": "IOT028",
+      "custo": 3
+    },
+    {
+      "destino": "IOT049",
+      "custo": 20
+    },
+    {
+      "destino": "IOT001",
+      "custo": 15
+    },
+    {
+      "destino": "IOT022",
+      "custo": 11
+    },
+    {
+      "destino": "IOT022",
+      "custo": 16
+    },
+    {
+      "destino": "IOT030",
+      "custo": 2
+    },
+    {
+      "destino": "IOT036",
+      "custo": 3
+    },
+    {
+      "destino": "IOT031",
+      "custo": 16
+    },
+    {
+      "destino": "PROD028",
+      "custo": 55
+    }
+  ],
+  "IOT028": [
+    {
+      "destino": "IOT027",
+      "custo": 3
+    },
+    {
+      "destino": "IOT029",
+      "custo": 8
+    },
+    {
+      "destino": "IOT008",
+      "custo": 18
+    },
+    {
+      "destino": "IOT003",
+      "custo": 11
+    },
+    {
+      "destino": "IOT041",
+      "custo": 16
+    },
+    {
+      "destino": "IOT043",
+      "custo": 11
+    }
+  ],
+  "IOT029": [
+    {
+      "destino": "IOT028",
+      "custo": 8
+    },
+    {
+      "destino": "IOT030",
+      "custo": 1
+    },
+    {
+      "destino": "IOT022",
+      "custo": 6
+    },
+    {
+      "destino": "IOT019",
+      "custo": 4
+    },
+    {
+      "destino": "IOT006",
+      "custo": 20
+    },
+    {
+      "destino": "IOT041",
+      "custo": 2
+    },
+    {
+      "destino": "IOT035",
+      "custo": 16
+    },
+    {
+      "destino": "IOT007",
+      "custo": 4
+    },
+    {
+      "destino": "SEC008",
+      "custo": 57
+    }
+  ],
+  "IOT030": [
+    {
+      "destino": "IOT029",
+      "custo": 1
+    },
+    {
+      "destino": "IOT031",
+      "custo": 5
+    },
+    {
+      "destino": "IOT045",
+      "custo": 3
+    },
+    {
+      "destino": "IOT045",
+      "custo": 10
+    },
+    {
+      "destino": "IOT006",
+      "custo": 11
+    },
+    {
+      "destino": "IOT027",
+      "custo": 2
+    },
+    {
+      "destino": "IOT016",
+      "custo": 18
+    },
+    {
+      "destino": "IOT021",
+      "custo": 7
+    },
+    {
+      "destino": "IOT034",
+      "custo": 1
+    },
+    {
+      "destino": "IOT025",
+      "custo": 42
+    },
+    {
+      "destino": "PROD021",
+      "custo": 31
+    },
+    {
+      "destino": "IOT012",
+      "custo": 26
+    },
+    {
+      "destino": "PROD006",
+      "custo": 30
+    }
+  ],
+  "IOT031": [
+    {
+      "destino": "IOT030",
+      "custo": 5
+    },
+    {
+      "destino": "IOT032",
+      "custo": 9
+    },
+    {
+      "destino": "IOT034",
+      "custo": 15
+    },
+    {
+      "destino": "IOT006",
+      "custo": 12
+    },
+    {
+      "destino": "IOT027",
+      "custo": 16
+    },
+    {
+      "destino": "IOT017",
+      "custo": 11
+    },
+    {
+      "destino": "IOT040",
+      "custo": 55
+    },
+    {
+      "destino": "FIN019",
+      "custo": 56
+    },
+    {
+      "destino": "CORE017",
+      "custo": 44
+    }
+  ],
+  "IOT032": [
+    {
+      "destino": "IOT031",
+      "custo": 9
+    },
+    {
+      "destino": "IOT033",
+      "custo": 3
+    },
+    {
+      "destino": "IOT005",
+      "custo": 19
+    },
+    {
+      "destino": "IOT045",
+      "custo": 4
+    },
+    {
+      "destino": "IOT046",
+      "custo": 10
+    },
+    {
+      "destino": "IOT043",
+      "custo": 5
+    },
+    {
+      "destino": "IOT003",
+      "custo": 5
+    },
+    {
+      "destino": "BACKUP005",
+      "custo": 23
+    },
+    {
+      "destino": "IOT039",
+      "custo": 60
+    },
+    {
+      "destino": "IOT020",
+      "custo": 11
+    },
+    {
+      "destino": "IOT037",
+      "custo": 33
+    },
+    {
+      "destino": "IOT010",
+      "custo": 18
+    },
+    {
+      "destino": "SEC010",
+      "custo": 50
+    }
+  ],
+  "IOT033": [
+    {
+      "destino": "IOT032",
+      "custo": 3
+    },
+    {
+      "destino": "IOT034",
+      "custo": 9
+    },
+    {
+      "destino": "IOT035",
+      "custo": 16
+    },
+    {
+      "destino": "IOT046",
+      "custo": 9
+    },
+    {
+      "destino": "IOT039",
+      "custo": 5
+    },
+    {
+      "destino": "IOT022",
+      "custo": 9
+    },
+    {
+      "destino": "IOT038",
+      "custo": 11
+    },
+    {
+      "destino": "PROD020",
+      "custo": 33
+    },
+    {
+      "destino": "CORE007",
+      "custo": 48
+    },
+    {
+      "destino": "CLOUD014",
+      "custo": 34
+    }
+  ],
+  "IOT034": [
+    {
+      "destino": "IOT033",
+      "custo": 9
+    },
+    {
+      "destino": "IOT035",
+      "custo": 2
+    },
+    {
+      "destino": "IOT050",
+      "custo": 13
+    },
+    {
+      "destino": "IOT031",
+      "custo": 15
+    },
+    {
+      "destino": "IOT013",
+      "custo": 12
+    },
+    {
+      "destino": "IOT030",
+      "custo": 1
+    },
+    {
+      "destino": "PROD015",
+      "custo": 52
+    },
+    {
+      "destino": "SEC007",
+      "custo": 49
+    },
+    {
+      "destino": "PROD010",
+      "custo": 34
+    },
+    {
+      "destino": "PROD030",
+      "custo": 17
+    }
+  ],
+  "IOT035": [
+    {
+      "destino": "IOT034",
+      "custo": 2
+    },
+    {
+      "destino": "IOT036",
+      "custo": 5
+    },
+    {
+      "destino": "IOT033",
+      "custo": 16
+    },
+    {
+      "destino": "IOT029",
+      "custo": 16
+    },
+    {
+      "destino": "IOT049",
+      "custo": 13
+    },
+    {
+      "destino": "IOT044",
+      "custo": 13
+    },
+    {
+      "destino": "IOT003",
+      "custo": 20
+    },
+    {
+      "destino": "CLOUD015",
+      "custo": 51
+    },
+    {
+      "destino": "PROD017",
+      "custo": 12
+    }
+  ],
+  "IOT036": [
+    {
+      "destino": "IOT035",
+      "custo": 5
+    },
+    {
+      "destino": "IOT037",
+      "custo": 9
+    },
+    {
+      "destino": "IOT005",
+      "custo": 6
+    },
+    {
+      "destino": "IOT049",
+      "custo": 2
+    },
+    {
+      "destino": "IOT020",
+      "custo": 1
+    },
+    {
+      "destino": "IOT027",
+      "custo": 3
+    },
+    {
+      "destino": "IOT043",
+      "custo": 15
+    },
+    {
+      "destino": "PROD029",
+      "custo": 12
+    }
+  ],
+  "IOT037": [
+    {
+      "destino": "IOT036",
+      "custo": 9
+    },
+    {
+      "destino": "IOT038",
+      "custo": 10
+    },
+    {
+      "destino": "IOT020",
+      "custo": 3
+    },
+    {
+      "destino": "IOT020",
+      "custo": 20
+    },
+    {
+      "destino": "IOT003",
+      "custo": 6
+    },
+    {
+      "destino": "RH008",
+      "custo": 37
+    },
+    {
+      "destino": "PROD040",
+      "custo": 35
+    },
+    {
+      "destino": "CLOUD007",
+      "custo": 22
+    },
+    {
+      "destino": "CLOUD014",
+      "custo": 38
+    },
+    {
+      "destino": "PROD037",
+      "custo": 21
+    },
+    {
+      "destino": "FIN016",
+      "custo": 43
+    },
+    {
+      "destino": "IOT032",
+      "custo": 33
+    }
+  ],
+  "IOT038": [
+    {
+      "destino": "IOT037",
+      "custo": 10
+    },
+    {
+      "destino": "IOT039",
+      "custo": 4
+    },
+    {
+      "destino": "IOT020",
+      "custo": 14
+    },
+    {
+      "destino": "IOT041",
+      "custo": 7
+    },
+    {
+      "destino": "IOT002",
+      "custo": 9
+    },
+    {
+      "destino": "IOT033",
+      "custo": 11
+    },
+    {
+      "destino": "FIN007",
+      "custo": 42
+    },
+    {
+      "destino": "CORE019",
+      "custo": 18
+    }
+  ],
+  "IOT039": [
+    {
+      "destino": "IOT038",
+      "custo": 4
+    },
+    {
+      "destino": "IOT040",
+      "custo": 3
+    },
+    {
+      "destino": "IOT040",
+      "custo": 8
+    },
+    {
+      "destino": "IOT045",
+      "custo": 16
+    },
+    {
+      "destino": "IOT048",
+      "custo": 19
+    },
+    {
+      "destino": "IOT017",
+      "custo": 1
+    },
+    {
+      "destino": "IOT033",
+      "custo": 5
+    },
+    {
+      "destino": "SEC005",
+      "custo": 38
+    },
+    {
+      "destino": "IOT032",
+      "custo": 60
+    },
+    {
+      "destino": "BACKUP009",
+      "custo": 58
+    }
+  ],
+  "IOT040": [
+    {
+      "destino": "IOT039",
+      "custo": 3
+    },
+    {
+      "destino": "IOT041",
+      "custo": 6
+    },
+    {
+      "destino": "IOT039",
+      "custo": 8
+    },
+    {
+      "destino": "IOT004",
+      "custo": 4
+    },
+    {
+      "destino": "IOT049",
+      "custo": 16
+    },
+    {
+      "destino": "IOT045",
+      "custo": 13
+    },
+    {
+      "destino": "IOT031",
+      "custo": 55
+    }
+  ],
+  "IOT041": [
+    {
+      "destino": "IOT040",
+      "custo": 6
+    },
+    {
+      "destino": "IOT042",
+      "custo": 3
+    },
+    {
+      "destino": "IOT044",
+      "custo": 2
+    },
+    {
+      "destino": "IOT038",
+      "custo": 7
+    },
+    {
+      "destino": "IOT028",
+      "custo": 16
+    },
+    {
+      "destino": "IOT029",
+      "custo": 2
+    },
+    {
+      "destino": "IOT002",
+      "custo": 20
+    },
+    {
+      "destino": "IOT021",
+      "custo": 16
+    },
+    {
+      "destino": "CORE016",
+      "custo": 45
+    },
+    {
+      "destino": "PROD033",
+      "custo": 43
+    },
+    {
+      "destino": "FIN027",
+      "custo": 59
+    }
+  ],
+  "IOT042": [
+    {
+      "destino": "IOT041",
+      "custo": 3
+    },
+    {
+      "destino": "IOT043",
+      "custo": 9
+    },
+    {
+      "destino": "IOT015",
+      "custo": 5
+    },
+    {
+      "destino": "IOT008",
+      "custo": 5
+    },
+    {
+      "destino": "IOT043",
+      "custo": 5
+    },
+    {
+      "destino": "IOT010",
+      "custo": 3
+    },
+    {
+      "destino": "IOT006",
+      "custo": 11
+    },
+    {
+      "destino": "IOT015",
+      "custo": 43
+    },
+    {
+      "destino": "PROD001",
+      "custo": 13
+    },
+    {
+      "destino": "FIN024",
+      "custo": 47
+    }
+  ],
+  "IOT043": [
+    {
+      "destino": "IOT042",
+      "custo": 9
+    },
+    {
+      "destino": "IOT044",
+      "custo": 9
+    },
+    {
+      "destino": "IOT017",
+      "custo": 3
+    },
+    {
+      "destino": "IOT007",
+      "custo": 6
+    },
+    {
+      "destino": "IOT019",
+      "custo": 13
+    },
+    {
+      "destino": "IOT001",
+      "custo": 18
+    },
+    {
+      "destino": "IOT032",
+      "custo": 5
+    },
+    {
+      "destino": "IOT042",
+      "custo": 5
+    },
+    {
+      "destino": "IOT036",
+      "custo": 15
+    },
+    {
+      "destino": "BACKUP002",
+      "custo": 15
+    },
+    {
+      "destino": "FIN014",
+      "custo": 34
+    },
+    {
+      "destino": "IOT028",
+      "custo": 11
+    }
+  ],
+  "IOT044": [
+    {
+      "destino": "IOT043",
+      "custo": 9
+    },
+    {
+      "destino": "IOT045",
+      "custo": 1
+    },
+    {
+      "destino": "IOT041",
+      "custo": 2
+    },
+    {
+      "destino": "IOT015",
+      "custo": 9
+    },
+    {
+      "destino": "IOT035",
+      "custo": 13
+    },
+    {
+      "destino": "PROD010",
+      "custo": 32
+    },
+    {
+      "destino": "CLOUD014",
+      "custo": 13
+    }
+  ],
+  "IOT045": [
+    {
+      "destino": "IOT044",
+      "custo": 1
+    },
+    {
+      "destino": "IOT046",
+      "custo": 10
+    },
+    {
+      "destino": "IOT039",
+      "custo": 16
+    },
+    {
+      "destino": "IOT030",
+      "custo": 3
+    },
+    {
+      "destino": "IOT030",
+      "custo": 10
+    },
+    {
+      "destino": "IOT026",
+      "custo": 9
+    },
+    {
+      "destino": "IOT032",
+      "custo": 4
+    },
+    {
+      "destino": "IOT016",
+      "custo": 19
+    },
+    {
+      "destino": "IOT040",
+      "custo": 13
+    },
+    {
+      "destino": "IOT020",
+      "custo": 37
+    },
+    {
+      "destino": "FIN025",
+      "custo": 19
+    },
+    {
+      "destino": "PROD013",
+      "custo": 40
+    },
+    {
+      "destino": "CLOUD009",
+      "custo": 19
+    },
+    {
+      "destino": "RH002",
+      "custo": 18
+    },
+    {
+      "destino": "IOT001",
+      "custo": 21
+    },
+    {
+      "destino": "IOT005",
+      "custo": 55
+    },
+    {
+      "destino": "FIN020",
+      "custo": 53
+    }
+  ],
+  "IOT046": [
+    {
+      "destino": "IOT045",
+      "custo": 10
+    },
+    {
+      "destino": "IOT047",
+      "custo": 6
+    },
+    {
+      "destino": "IOT019",
+      "custo": 10
+    },
+    {
+      "destino": "IOT016",
+      "custo": 6
+    },
+    {
+      "destino": "IOT032",
+      "custo": 10
+    },
+    {
+      "destino": "IOT033",
+      "custo": 9
+    },
+    {
+      "destino": "IOT025",
+      "custo": 13
+    },
+    {
+      "destino": "IOT015",
+      "custo": 38
+    },
+    {
+      "destino": "IOT026",
+      "custo": 37
+    },
+    {
+      "destino": "FIN017",
+      "custo": 53
+    }
+  ],
+  "IOT047": [
+    {
+      "destino": "IOT046",
+      "custo": 6
+    },
+    {
+      "destino": "IOT048",
+      "custo": 8
+    },
+    {
+      "destino": "IOT010",
+      "custo": 14
+    },
+    {
+      "destino": "FIN021",
+      "custo": 33
+    },
+    {
+      "destino": "IOT004",
+      "custo": 28
+    },
+    {
+      "destino": "PROD004",
+      "custo": 54
+    },
+    {
+      "destino": "FIN003",
+      "custo": 14
+    }
+  ],
+  "IOT048": [
+    {
+      "destino": "IOT047",
+      "custo": 8
+    },
+    {
+      "destino": "IOT049",
+      "custo": 1
+    },
+    {
+      "destino": "IOT039",
+      "custo": 19
+    },
+    {
+      "destino": "CLOUD013",
+      "custo": 51
+    },
+    {
+      "destino": "FIN004",
+      "custo": 48
+    },
+    {
+      "destino": "CORE002",
+      "custo": 15
+    },
+    {
+      "destino": "PROD021",
+      "custo": 25
+    },
+    {
+      "destino": "IOT002",
+      "custo": 27
+    },
+    {
+      "destino": "PROD008",
+      "custo": 44
+    }
+  ],
+  "IOT049": [
+    {
+      "destino": "IOT048",
+      "custo": 1
+    },
+    {
+      "destino": "IOT050",
+      "custo": 2
+    },
+    {
+      "destino": "IOT027",
+      "custo": 20
+    },
+    {
+      "destino": "IOT014",
+      "custo": 7
+    },
+    {
+      "destino": "IOT036",
+      "custo": 2
+    },
+    {
+      "destino": "IOT040",
+      "custo": 16
+    },
+    {
+      "destino": "IOT035",
+      "custo": 13
+    },
+    {
+      "destino": "SEC004",
+      "custo": 13
+    },
+    {
+      "destino": "IOT008",
+      "custo": 54
+    }
+  ],
+  "IOT050": [
+    {
+      "destino": "IOT049",
+      "custo": 2
+    },
+    {
+      "destino": "CLOUD001",
+      "custo": 6
+    },
+    {
+      "destino": "IOT034",
+      "custo": 13
+    },
+    {
+      "destino": "IOT026",
+      "custo": 17
+    },
+    {
+      "destino": "PROD001",
+      "custo": 50
+    },
+    {
+      "destino": "CLOUD003",
+      "custo": 30
+    },
+    {
+      "destino": "CLOUD004",
+      "custo": 39
+    },
+    {
+      "destino": "BACKUP005",
+      "custo": 48
+    }
+  ],
+  "CLOUD001": [
+    {
+      "destino": "IOT050",
+      "custo": 6
+    },
+    {
+      "destino": "CLOUD002",
+      "custo": 5
+    },
+    {
+      "destino": "CLOUD002",
+      "custo": 11
+    },
+    {
+      "destino": "CLOUD013",
+      "custo": 9
+    },
+    {
+      "destino": "CLOUD019",
+      "custo": 2
+    },
+    {
+      "destino": "CLOUD013",
+      "custo": 9
+    },
+    {
+      "destino": "SEC008",
+      "custo": 41
+    },
+    {
+      "destino": "PROD011",
+      "custo": 19
+    },
+    {
+      "destino": "FIN007",
+      "custo": 59
+    }
+  ],
+  "CLOUD002": [
+    {
+      "destino": "CLOUD001",
+      "custo": 5
+    },
+    {
+      "destino": "CLOUD003",
+      "custo": 4
+    },
+    {
+      "destino": "CLOUD001",
+      "custo": 11
+    },
+    {
+      "destino": "CLOUD010",
+      "custo": 12
+    },
+    {
+      "destino": "CLOUD010",
+      "custo": 15
+    },
+    {
+      "destino": "CLOUD019",
+      "custo": 12
+    },
+    {
+      "destino": "IOT004",
+      "custo": 29
+    },
+    {
+      "destino": "CLOUD006",
+      "custo": 31
+    },
+    {
+      "destino": "IOT022",
+      "custo": 46
+    },
+    {
+      "destino": "IOT013",
+      "custo": 21
+    }
+  ],
+  "CLOUD003": [
+    {
+      "destino": "CLOUD002",
+      "custo": 4
+    },
+    {
+      "destino": "CLOUD004",
+      "custo": 1
+    },
+    {
+      "destino": "CLOUD008",
+      "custo": 14
+    },
+    {
+      "destino": "CLOUD006",
+      "custo": 20
+    },
+    {
+      "destino": "CLOUD006",
+      "custo": 15
+    },
+    {
+      "destino": "CLOUD005",
+      "custo": 10
+    },
+    {
+      "destino": "IOT050",
+      "custo": 30
+    },
+    {
+      "destino": "PROD030",
+      "custo": 33
+    },
+    {
+      "destino": "RH001",
+      "custo": 45
+    }
+  ],
+  "CLOUD004": [
+    {
+      "destino": "CLOUD003",
+      "custo": 1
+    },
+    {
+      "destino": "CLOUD005",
+      "custo": 4
+    },
+    {
+      "destino": "CLOUD016",
+      "custo": 8
+    },
+    {
+      "destino": "CLOUD015",
+      "custo": 3
+    },
+    {
+      "destino": "CLOUD018",
+      "custo": 15
+    },
+    {
+      "destino": "BACKUP002",
+      "custo": 36
+    },
+    {
+      "destino": "IOT050",
+      "custo": 39
+    },
+    {
+      "destino": "CORE015",
+      "custo": 14
+    },
+    {
+      "destino": "CLOUD012",
+      "custo": 35
+    },
+    {
+      "destino": "FIN025",
+      "custo": 60
+    }
+  ],
+  "CLOUD005": [
+    {
+      "destino": "CLOUD004",
+      "custo": 4
+    },
+    {
+      "destino": "CLOUD006",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD009",
+      "custo": 4
+    },
+    {
+      "destino": "CLOUD003",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD007",
+      "custo": 18
+    },
+    {
+      "destino": "CLOUD008",
+      "custo": 13
+    },
+    {
+      "destino": "CORE008",
+      "custo": 13
+    },
+    {
+      "destino": "PROD015",
+      "custo": 18
+    },
+    {
+      "destino": "FIN025",
+      "custo": 59
+    },
+    {
+      "destino": "PROD012",
+      "custo": 14
+    },
+    {
+      "destino": "SEC008",
+      "custo": 46
+    }
+  ],
+  "CLOUD006": [
+    {
+      "destino": "CLOUD005",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD007",
+      "custo": 2
+    },
+    {
+      "destino": "CLOUD015",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD019",
+      "custo": 6
+    },
+    {
+      "destino": "CLOUD003",
+      "custo": 20
+    },
+    {
+      "destino": "CLOUD003",
+      "custo": 15
+    },
+    {
+      "destino": "CLOUD009",
+      "custo": 9
+    },
+    {
+      "destino": "FIN025",
+      "custo": 12
+    },
+    {
+      "destino": "CLOUD002",
+      "custo": 31
+    },
+    {
+      "destino": "CLOUD012",
+      "custo": 37
+    },
+    {
+      "destino": "PROD024",
+      "custo": 33
+    }
+  ],
+  "CLOUD007": [
+    {
+      "destino": "CLOUD006",
+      "custo": 2
+    },
+    {
+      "destino": "CLOUD008",
+      "custo": 2
+    },
+    {
+      "destino": "CLOUD010",
+      "custo": 13
+    },
+    {
+      "destino": "CLOUD008",
+      "custo": 20
+    },
+    {
+      "destino": "CLOUD005",
+      "custo": 18
+    },
+    {
+      "destino": "CLOUD008",
+      "custo": 59
+    },
+    {
+      "destino": "IOT037",
+      "custo": 22
+    },
+    {
+      "destino": "PROD002",
+      "custo": 25
+    }
+  ],
+  "CLOUD008": [
+    {
+      "destino": "CLOUD007",
+      "custo": 2
+    },
+    {
+      "destino": "CLOUD009",
+      "custo": 8
+    },
+    {
+      "destino": "CLOUD003",
+      "custo": 14
+    },
+    {
+      "destino": "CLOUD017",
+      "custo": 14
+    },
+    {
+      "destino": "CLOUD015",
+      "custo": 9
+    },
+    {
+      "destino": "CLOUD020",
+      "custo": 12
+    },
+    {
+      "destino": "CLOUD007",
+      "custo": 20
+    },
+    {
+      "destino": "CLOUD005",
+      "custo": 13
+    },
+    {
+      "destino": "CLOUD007",
+      "custo": 59
+    },
+    {
+      "destino": "CORE020",
+      "custo": 21
+    },
+    {
+      "destino": "PROD010",
+      "custo": 54
+    }
+  ],
+  "CLOUD009": [
+    {
+      "destino": "CLOUD008",
+      "custo": 8
+    },
+    {
+      "destino": "CLOUD010",
+      "custo": 2
+    },
+    {
+      "destino": "CLOUD015",
+      "custo": 1
+    },
+    {
+      "destino": "CLOUD014",
+      "custo": 15
+    },
+    {
+      "destino": "CLOUD005",
+      "custo": 4
+    },
+    {
+      "destino": "CLOUD006",
+      "custo": 9
+    },
+    {
+      "destino": "CLOUD018",
+      "custo": 27
+    },
+    {
+      "destino": "PROD033",
+      "custo": 14
+    },
+    {
+      "destino": "IOT045",
+      "custo": 19
+    }
+  ],
+  "CLOUD010": [
+    {
+      "destino": "CLOUD009",
+      "custo": 2
+    },
+    {
+      "destino": "CLOUD011",
+      "custo": 9
+    },
+    {
+      "destino": "CLOUD002",
+      "custo": 12
+    },
+    {
+      "destino": "CLOUD015",
+      "custo": 18
+    },
+    {
+      "destino": "CLOUD007",
+      "custo": 13
+    },
+    {
+      "destino": "CLOUD019",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD002",
+      "custo": 15
+    },
+    {
+      "destino": "CLOUD016",
+      "custo": 11
+    },
+    {
+      "destino": "IOT004",
+      "custo": 37
+    },
+    {
+      "destino": "FIN017",
+      "custo": 32
+    },
+    {
+      "destino": "PROD031",
+      "custo": 18
+    },
+    {
+      "destino": "PROD006",
+      "custo": 29
+    }
+  ],
+  "CLOUD011": [
+    {
+      "destino": "CLOUD010",
+      "custo": 9
+    },
+    {
+      "destino": "CLOUD012",
+      "custo": 3
+    },
+    {
+      "destino": "CLOUD014",
+      "custo": 6
+    },
+    {
+      "destino": "PROD011",
+      "custo": 26
+    },
+    {
+      "destino": "SEC003",
+      "custo": 37
+    },
+    {
+      "destino": "PROD009",
+      "custo": 12
+    },
+    {
+      "destino": "CLOUD012",
+      "custo": 15
+    },
+    {
+      "destino": "PROD019",
+      "custo": 55
+    }
+  ],
+  "CLOUD012": [
+    {
+      "destino": "CLOUD011",
+      "custo": 3
+    },
+    {
+      "destino": "CLOUD013",
+      "custo": 3
+    },
+    {
+      "destino": "CLOUD014",
+      "custo": 5
+    },
+    {
+      "destino": "CLOUD019",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD017",
+      "custo": 17
+    },
+    {
+      "destino": "CLOUD018",
+      "custo": 3
+    },
+    {
+      "destino": "PROD021",
+      "custo": 14
+    },
+    {
+      "destino": "CLOUD020",
+      "custo": 57
+    },
+    {
+      "destino": "CLOUD006",
+      "custo": 37
+    },
+    {
+      "destino": "CLOUD011",
+      "custo": 15
+    },
+    {
+      "destino": "CLOUD004",
+      "custo": 35
+    }
+  ],
+  "CLOUD013": [
+    {
+      "destino": "CLOUD012",
+      "custo": 3
+    },
+    {
+      "destino": "CLOUD014",
+      "custo": 8
+    },
+    {
+      "destino": "CLOUD020",
+      "custo": 8
+    },
+    {
+      "destino": "CLOUD019",
+      "custo": 12
+    },
+    {
+      "destino": "CLOUD001",
+      "custo": 9
+    },
+    {
+      "destino": "CLOUD001",
+      "custo": 9
+    },
+    {
+      "destino": "IOT048",
+      "custo": 51
+    },
+    {
+      "destino": "FIN001",
+      "custo": 27
+    }
+  ],
+  "CLOUD014": [
+    {
+      "destino": "CLOUD013",
+      "custo": 8
+    },
+    {
+      "destino": "CLOUD015",
+      "custo": 9
+    },
+    {
+      "destino": "CLOUD012",
+      "custo": 5
+    },
+    {
+      "destino": "CLOUD009",
+      "custo": 15
+    },
+    {
+      "destino": "CLOUD011",
+      "custo": 6
+    },
+    {
+      "destino": "PROD003",
+      "custo": 53
+    },
+    {
+      "destino": "IOT044",
+      "custo": 13
+    },
+    {
+      "destino": "IOT033",
+      "custo": 34
+    },
+    {
+      "destino": "BACKUP005",
+      "custo": 25
+    },
+    {
+      "destino": "IOT037",
+      "custo": 38
+    },
+    {
+      "destino": "FIN021",
+      "custo": 11
+    }
+  ],
+  "CLOUD015": [
+    {
+      "destino": "CLOUD014",
+      "custo": 9
+    },
+    {
+      "destino": "CLOUD016",
+      "custo": 3
+    },
+    {
+      "destino": "CLOUD006",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD008",
+      "custo": 9
+    },
+    {
+      "destino": "CLOUD009",
+      "custo": 1
+    },
+    {
+      "destino": "CLOUD010",
+      "custo": 18
+    },
+    {
+      "destino": "CLOUD004",
+      "custo": 3
+    },
+    {
+      "destino": "IOT035",
+      "custo": 51
+    },
+    {
+      "destino": "FIN003",
+      "custo": 30
+    }
+  ],
+  "CLOUD016": [
+    {
+      "destino": "CLOUD015",
+      "custo": 3
+    },
+    {
+      "destino": "CLOUD017",
+      "custo": 5
+    },
+    {
+      "destino": "CLOUD019",
+      "custo": 5
+    },
+    {
+      "destino": "CLOUD004",
+      "custo": 8
+    },
+    {
+      "destino": "CLOUD020",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD010",
+      "custo": 11
+    },
+    {
+      "destino": "FIN008",
+      "custo": 41
+    },
+    {
+      "destino": "IOT025",
+      "custo": 15
+    },
+    {
+      "destino": "IOT009",
+      "custo": 54
+    }
+  ],
+  "CLOUD017": [
+    {
+      "destino": "CLOUD016",
+      "custo": 5
+    },
+    {
+      "destino": "CLOUD018",
+      "custo": 9
+    },
+    {
+      "destino": "CLOUD008",
+      "custo": 14
+    },
+    {
+      "destino": "CLOUD012",
+      "custo": 17
+    }
+  ],
+  "CLOUD018": [
+    {
+      "destino": "CLOUD017",
+      "custo": 9
+    },
+    {
+      "destino": "CLOUD019",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD012",
+      "custo": 3
+    },
+    {
+      "destino": "CLOUD004",
+      "custo": 15
+    },
+    {
+      "destino": "CLOUD009",
+      "custo": 27
+    },
+    {
+      "destino": "SEC008",
+      "custo": 49
+    },
+    {
+      "destino": "IOT018",
+      "custo": 33
+    }
+  ],
+  "CLOUD019": [
+    {
+      "destino": "CLOUD018",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD020",
+      "custo": 7
+    },
+    {
+      "destino": "CLOUD006",
+      "custo": 6
+    },
+    {
+      "destino": "CLOUD016",
+      "custo": 5
+    },
+    {
+      "destino": "CLOUD012",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD013",
+      "custo": 12
+    },
+    {
+      "destino": "CLOUD010",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD001",
+      "custo": 2
+    },
+    {
+      "destino": "CLOUD002",
+      "custo": 12
+    },
+    {
+      "destino": "FIN016",
+      "custo": 58
+    }
+  ],
+  "CLOUD020": [
+    {
+      "destino": "CLOUD019",
+      "custo": 7
+    },
+    {
+      "destino": "BACKUP001",
+      "custo": 4
+    },
+    {
+      "destino": "CLOUD013",
+      "custo": 8
+    },
+    {
+      "destino": "CLOUD016",
+      "custo": 10
+    },
+    {
+      "destino": "CLOUD008",
+      "custo": 12
+    },
+    {
+      "destino": "FIN006",
+      "custo": 17
+    },
+    {
+      "destino": "SEC006",
+      "custo": 29
+    },
+    {
+      "destino": "CLOUD012",
+      "custo": 57
+    }
+  ],
+  "BACKUP001": [
+    {
+      "destino": "CLOUD020",
+      "custo": 4
+    },
+    {
+      "destino": "BACKUP002",
+      "custo": 9
+    },
+    {
+      "destino": "BACKUP005",
+      "custo": 16
+    },
+    {
+      "destino": "BACKUP005",
+      "custo": 12
+    },
+    {
+      "destino": "BACKUP007",
+      "custo": 9
+    },
+    {
+      "destino": "IOT011",
+      "custo": 38
+    },
+    {
+      "destino": "IOT005",
+      "custo": 23
+    }
+  ],
+  "BACKUP002": [
+    {
+      "destino": "BACKUP001",
+      "custo": 9
+    },
+    {
+      "destino": "BACKUP003",
+      "custo": 4
+    },
+    {
+      "destino": "BACKUP003",
+      "custo": 2
+    },
+    {
+      "destino": "BACKUP004",
+      "custo": 15
+    },
+    {
+      "destino": "CLOUD004",
+      "custo": 36
+    },
+    {
+      "destino": "RH014",
+      "custo": 38
+    },
+    {
+      "destino": "IOT043",
+      "custo": 15
+    },
+    {
+      "destino": "BACKUP003",
+      "custo": 54
+    }
+  ],
+  "BACKUP003": [
+    {
+      "destino": "BACKUP002",
+      "custo": 4
+    },
+    {
+      "destino": "BACKUP004",
+      "custo": 5
+    },
+    {
+      "destino": "BACKUP002",
+      "custo": 2
+    },
+    {
+      "destino": "BACKUP007",
+      "custo": 4
+    },
+    {
+      "destino": "IOT004",
+      "custo": 14
+    },
+    {
+      "destino": "FIN002",
+      "custo": 42
+    },
+    {
+      "destino": "FIN007",
+      "custo": 43
+    },
+    {
+      "destino": "FIN006",
+      "custo": 51
+    },
+    {
+      "destino": "FIN025",
+      "custo": 38
+    },
+    {
+      "destino": "BACKUP002",
+      "custo": 54
+    }
+  ],
+  "BACKUP004": [
+    {
+      "destino": "BACKUP003",
+      "custo": 5
+    },
+    {
+      "destino": "BACKUP005",
+      "custo": 7
+    },
+    {
+      "destino": "BACKUP008",
+      "custo": 1
+    },
+    {
+      "destino": "BACKUP010",
+      "custo": 3
+    },
+    {
+      "destino": "BACKUP009",
+      "custo": 5
+    },
+    {
+      "destino": "BACKUP008",
+      "custo": 15
+    },
+    {
+      "destino": "BACKUP006",
+      "custo": 4
+    },
+    {
+      "destino": "BACKUP002",
+      "custo": 15
+    },
+    {
+      "destino": "RH012",
+      "custo": 19
+    }
+  ],
+  "BACKUP005": [
+    {
+      "destino": "BACKUP004",
+      "custo": 7
+    },
+    {
+      "destino": "BACKUP006",
+      "custo": 6
+    },
+    {
+      "destino": "BACKUP006",
+      "custo": 19
+    },
+    {
+      "destino": "BACKUP008",
+      "custo": 14
+    },
+    {
+      "destino": "BACKUP001",
+      "custo": 16
+    },
+    {
+      "destino": "BACKUP001",
+      "custo": 12
+    },
+    {
+      "destino": "IOT032",
+      "custo": 23
+    },
+    {
+      "destino": "CORE014",
+      "custo": 28
+    },
+    {
+      "destino": "PROD014",
+      "custo": 59
+    },
+    {
+      "destino": "FIN023",
+      "custo": 38
+    },
+    {
+      "destino": "CLOUD014",
+      "custo": 25
+    },
+    {
+      "destino": "IOT013",
+      "custo": 43
+    },
+    {
+      "destino": "IOT050",
+      "custo": 48
+    }
+  ],
+  "BACKUP006": [
+    {
+      "destino": "BACKUP005",
+      "custo": 6
+    },
+    {
+      "destino": "BACKUP007",
+      "custo": 8
+    },
+    {
+      "destino": "BACKUP005",
+      "custo": 19
+    },
+    {
+      "destino": "BACKUP007",
+      "custo": 4
+    },
+    {
+      "destino": "BACKUP004",
+      "custo": 4
+    },
+    {
+      "destino": "BACKUP009",
+      "custo": 12
+    }
+  ],
+  "BACKUP007": [
+    {
+      "destino": "BACKUP006",
+      "custo": 8
+    },
+    {
+      "destino": "BACKUP008",
+      "custo": 9
+    },
+    {
+      "destino": "BACKUP006",
+      "custo": 4
+    },
+    {
+      "destino": "BACKUP008",
+      "custo": 12
+    },
+    {
+      "destino": "BACKUP009",
+      "custo": 19
+    },
+    {
+      "destino": "BACKUP003",
+      "custo": 4
+    },
+    {
+      "destino": "BACKUP001",
+      "custo": 9
+    },
+    {
+      "destino": "PROD020",
+      "custo": 51
+    },
+    {
+      "destino": "PROD039",
+      "custo": 15
+    },
+    {
+      "destino": "CORE011",
+      "custo": 32
+    }
+  ],
+  "BACKUP008": [
+    {
+      "destino": "BACKUP007",
+      "custo": 9
+    },
+    {
+      "destino": "BACKUP009",
+      "custo": 8
+    },
+    {
+      "destino": "BACKUP004",
+      "custo": 1
+    },
+    {
+      "destino": "BACKUP005",
+      "custo": 14
+    },
+    {
+      "destino": "BACKUP007",
+      "custo": 12
+    },
+    {
+      "destino": "BACKUP010",
+      "custo": 14
+    },
+    {
+      "destino": "BACKUP004",
+      "custo": 15
+    },
+    {
+      "destino": "RH012",
+      "custo": 52
+    }
+  ],
+  "BACKUP009": [
+    {
+      "destino": "BACKUP008",
+      "custo": 8
+    },
+    {
+      "destino": "BACKUP010",
+      "custo": 2
+    },
+    {
+      "destino": "BACKUP010",
+      "custo": 11
+    },
+    {
+      "destino": "BACKUP004",
+      "custo": 5
+    },
+    {
+      "destino": "BACKUP007",
+      "custo": 19
+    },
+    {
+      "destino": "BACKUP006",
+      "custo": 12
+    },
+    {
+      "destino": "IOT039",
+      "custo": 58
+    }
+  ],
+  "BACKUP010": [
+    {
+      "destino": "BACKUP009",
+      "custo": 2
+    },
+    {
+      "destino": "SEC001",
+      "custo": 4
+    },
+    {
+      "destino": "BACKUP009",
+      "custo": 11
+    },
+    {
+      "destino": "BACKUP004",
+      "custo": 3
+    },
+    {
+      "destino": "BACKUP008",
+      "custo": 14
+    },
+    {
+      "destino": "FIN017",
+      "custo": 50
+    },
+    {
+      "destino": "PROD032",
+      "custo": 12
+    },
+    {
+      "destino": "CORE011",
+      "custo": 38
+    }
+  ],
+  "SEC001": [
+    {
+      "destino": "BACKUP010",
+      "custo": 4
+    },
+    {
+      "destino": "SEC002",
+      "custo": 4
+    },
+    {
+      "destino": "SEC005",
+      "custo": 5
+    },
+    {
+      "destino": "SEC003",
+      "custo": 12
+    },
+    {
+      "destino": "SEC003",
+      "custo": 9
+    },
+    {
+      "destino": "SEC003",
+      "custo": 14
+    },
+    {
+      "destino": "FIN005",
+      "custo": 57
+    },
+    {
+      "destino": "PROD017",
+      "custo": 24
+    },
+    {
+      "destino": "IOT003",
+      "custo": 34
+    }
+  ],
+  "SEC002": [
+    {
+      "destino": "SEC001",
+      "custo": 4
+    },
+    {
+      "destino": "SEC003",
+      "custo": 2
+    },
+    {
+      "destino": "SEC004",
+      "custo": 20
+    },
+    {
+      "destino": "SEC003",
+      "custo": 1
+    },
+    {
+      "destino": "SEC009",
+      "custo": 3
+    },
+    {
+      "destino": "SEC008",
+      "custo": 17
+    },
+    {
+      "destino": "SEC003",
+      "custo": 60
+    },
+    {
+      "destino": "RH015",
+      "custo": 11
+    }
+  ],
+  "SEC003": [
+    {
+      "destino": "SEC002",
+      "custo": 2
+    },
+    {
+      "destino": "SEC004",
+      "custo": 6
+    },
+    {
+      "destino": "SEC006",
+      "custo": 20
+    },
+    {
+      "destino": "SEC009",
+      "custo": 9
+    },
+    {
+      "destino": "SEC002",
+      "custo": 1
+    },
+    {
+      "destino": "SEC001",
+      "custo": 12
+    },
+    {
+      "destino": "SEC001",
+      "custo": 9
+    },
+    {
+      "destino": "SEC001",
+      "custo": 14
+    },
+    {
+      "destino": "CLOUD011",
+      "custo": 37
+    },
+    {
+      "destino": "SEC002",
+      "custo": 60
+    },
+    {
+      "destino": "CORE010",
+      "custo": 51
+    }
+  ],
+  "SEC004": [
+    {
+      "destino": "SEC003",
+      "custo": 6
+    },
+    {
+      "destino": "SEC005",
+      "custo": 1
+    },
+    {
+      "destino": "SEC002",
+      "custo": 20
+    },
+    {
+      "destino": "SEC006",
+      "custo": 5
+    },
+    {
+      "destino": "SEC010",
+      "custo": 3
+    },
+    {
+      "destino": "SEC009",
+      "custo": 19
+    },
+    {
+      "destino": "SEC010",
+      "custo": 11
+    },
+    {
+      "destino": "SEC010",
+      "custo": 2
+    },
+    {
+      "destino": "IOT049",
+      "custo": 13
+    },
+    {
+      "destino": "IOT022",
+      "custo": 17
+    },
+    {
+      "destino": "IOT009",
+      "custo": 46
+    }
+  ],
+  "SEC005": [
+    {
+      "destino": "SEC004",
+      "custo": 1
+    },
+    {
+      "destino": "SEC006",
+      "custo": 10
+    },
+    {
+      "destino": "SEC001",
+      "custo": 5
+    },
+    {
+      "destino": "SEC009",
+      "custo": 15
+    },
+    {
+      "destino": "IOT039",
+      "custo": 38
+    }
+  ],
+  "SEC006": [
+    {
+      "destino": "SEC005",
+      "custo": 10
+    },
+    {
+      "destino": "SEC007",
+      "custo": 9
+    },
+    {
+      "destino": "SEC004",
+      "custo": 5
+    },
+    {
+      "destino": "SEC003",
+      "custo": 20
+    },
+    {
+      "destino": "SEC009",
+      "custo": 19
+    },
+    {
+      "destino": "FIN010",
+      "custo": 27
+    },
+    {
+      "destino": "CLOUD020",
+      "custo": 29
+    },
+    {
+      "destino": "FIN016",
+      "custo": 26
+    },
+    {
+      "destino": "FIN022",
+      "custo": 27
+    },
+    {
+      "destino": "IOT004",
+      "custo": 14
+    }
+  ],
+  "SEC007": [
+    {
+      "destino": "SEC006",
+      "custo": 9
+    },
+    {
+      "destino": "SEC008",
+      "custo": 4
+    },
+    {
+      "destino": "IOT034",
+      "custo": 49
+    },
+    {
+      "destino": "PROD017",
+      "custo": 49
+    },
+    {
+      "destino": "IOT009",
+      "custo": 28
+    },
+    {
+      "destino": "PROD036",
+      "custo": 36
+    }
+  ],
+  "SEC008": [
+    {
+      "destino": "SEC007",
+      "custo": 4
+    },
+    {
+      "destino": "SEC009",
+      "custo": 10
+    },
+    {
+      "destino": "SEC002",
+      "custo": 17
+    },
+    {
+      "destino": "CLOUD001",
+      "custo": 41
+    },
+    {
+      "destino": "IOT029",
+      "custo": 57
+    },
+    {
+      "destino": "CLOUD018",
+      "custo": 49
+    },
+    {
+      "destino": "CLOUD005",
+      "custo": 46
+    }
+  ],
+  "SEC009": [
+    {
+      "destino": "SEC008",
+      "custo": 10
+    },
+    {
+      "destino": "SEC010",
+      "custo": 4
+    },
+    {
+      "destino": "SEC004",
+      "custo": 19
+    },
+    {
+      "destino": "SEC003",
+      "custo": 9
+    },
+    {
+      "destino": "SEC002",
+      "custo": 3
+    },
+    {
+      "destino": "SEC006",
+      "custo": 19
+    },
+    {
+      "destino": "SEC005",
+      "custo": 15
+    },
+    {
+      "destino": "FIN030",
+      "custo": 32
+    },
+    {
+      "destino": "PROD035",
+      "custo": 31
+    },
+    {
+      "destino": "FIN009",
+      "custo": 28
+    },
+    {
+      "destino": "IOT008",
+      "custo": 12
+    },
+    {
+      "destino": "RH018",
+      "custo": 26
+    }
+  ],
+  "SEC010": [
+    {
+      "destino": "SEC009",
+      "custo": 4
+    },
+    {
+      "destino": "SEC004",
+      "custo": 3
+    },
+    {
+      "destino": "SEC004",
+      "custo": 11
+    },
+    {
+      "destino": "SEC004",
+      "custo": 2
+    },
+    {
+      "destino": "PROD016",
+      "custo": 20
+    },
+    {
+      "destino": "PROD028",
+      "custo": 42
+    },
+    {
+      "destino": "CORE013",
+      "custo": 51
+    },
+    {
+      "destino": "IOT032",
+      "custo": 50
+    }
+  ]
+}
